@@ -1,21 +1,170 @@
 {
-    "env": {
-        "browser": true,
-        "es2021": true
-    },
-    "extends": [
-        "plugin:react/recommended",
-        "airbnb"
+  "env": {
+    "commonjs": true,
+    "node": true,
+    "es2021": true
+  },
+  "extends": [
+    "plugin:react/recommended",
+    "airbnb",
+    "plugin:prettier/recommended",
+    "eslint:recommended"
+  ],
+  "overrides": [],
+  "parserOptions": {
+    "ecmaVersion": "latest",
+    "sourceType": "module",
+    "arrow-body-style": ["error", "as-needed"],
+    "arrow-parens": ["error", "always"],
+    "arrow-spacing": "error",
+    "camelcase": "error",
+    "comma-dangle": ["error", "always-multiline"],
+    "curly": "error",
+    "default-case": "error",
+    "dot-notation": "warn",
+    "eqeqeq": "error",
+    "max-len": [
+      "warn",
+      {
+        "code": 180,
+        "ignoreUrls": true,
+        "ignoreRegExpLiterals": true
+      }
     ],
-    "overrides": [
+    "newline-per-chained-call": "off",
+    "no-alert": "warn",
+    "no-confusing-arrow": "off",
+    "no-console": "error",
+    "no-duplicate-imports": [
+      "error",
+      {
+        "includeExports": true
+      }
     ],
-    "parserOptions": {
-        "ecmaVersion": "latest",
-        "sourceType": "module"
-    },
-    "plugins": [
-        "react"
+    "no-else-return": "error",
+    "no-eq-null": "error",
+    "no-extra-bind": "error",
+    "no-lone-blocks": "error",
+    "no-multiple-empty-lines": ["error"],
+    "no-nested-ternary": ["error"],
+    "no-param-reassign": "error",
+    "no-return-assign": "error",
+    "no-return-await": "warn",
+    "no-self-compare": "error",
+    "no-template-curly-in-string": "error",
+    "no-underscore-dangle": [
+      "warn",
+      {
+        "allowAfterSuper": true,
+        "enforceInMethodNames": true
+      }
     ],
-    "rules": {
-    }
+    "no-useless-concat": "error",
+    "no-useless-constructor": "error",
+    "no-useless-escape": "error",
+    "no-var": "error",
+    "prefer-const": "error",
+    "prefer-promise-reject-errors": "error",
+    "prefer-template": "error",
+    "require-await": "warn",
+    "spaced-comment": "error",
+    "symbol-description": "error",
+    // import
+    "import/newline-after-import": [
+      "error",
+      {
+        "count": 1
+      }
+    ],
+    "import/no-dynamic-require": "off",
+    "import/no-extraneous-dependencies": "off",
+    "import/no-named-as-default": "off",
+    // react
+    "react/boolean-prop-naming": "error",
+    "react/default-props-match-prop-types": [
+      "error",
+      {
+        "allowRequiredDefaults": true
+      }
+    ],
+    "react/forbid-prop-types": "off",
+    "react/jsx-boolean-value": "error",
+    "react/jsx-filename-extension": "off",
+    "react/jsx-handler-names": "error",
+    "react/jsx-key": "error",
+    "react/jsx-indent": ["error", 2],
+    "react/jsx-indent-props": ["error", 2],
+    "react/jsx-no-bind": "error",
+    "react/jsx-no-comment-textnodes": "error",
+    "react/jsx-no-duplicate-props": "error",
+    "react/no-direct-mutation-state": "error",
+    "react/jsx-no-undef": "error",
+    "react/jsx-pascal-case": "error",
+    "react/no-typos": "error",
+    "react/prefer-es6-class": ["error", "always"],
+    "react/sort-comp": [
+      "error",
+      {
+        "order": [
+          "type-annotations",
+          "instance-variables",
+          "static-methods",
+          "lifecycle",
+          "instance-methods",
+          "/^handle.+$/",
+          "everything-else",
+          "rendering"
+        ],
+        "groups": {
+          "rendering": ["/^render.+$/", "render"]
+        }
+      }
+    ],
+    "jsx-quotes": ["Error", "prefer-double"],
+    "quote-props": [
+      "Error",
+      "as-needed",
+      {
+        "unnecessary": false
+      }
+    ],
+    "jsx-a11y/label-has-associated-control": [
+      "error",
+      {
+        "required": {
+          "some": ["nesting", "id"]
+        }
+      }
+    ],
+    "jsx-a11y/label-has-for": [
+      "error",
+      {
+        "required": {
+          "some": ["nesting", "id"]
+        }
+      }
+    ]
+  },
+  "plugins": ["react"],
+  "rules": {
+    "react/react-in-jsx-scope": "off",
+    "import/no-extraneous-dependencies": [
+      "error",
+      {
+        "devDependencies": true
+      }
+    ],
+    "no-eval": "error",
+    "no-unused-vars": [
+      "error",
+      {
+        "vars": "all",
+        "args": "after-used",
+        "ignoreRestSiblings": false
+      }
+    ],
+    "no-unused-expressions": "error",
+    "semi": ["error", "never"],
+    "semi-style": ["error", "last"]
+  }
 }
