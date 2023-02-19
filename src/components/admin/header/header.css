@@ -1,0 +1,23 @@
+header {
+    color: var(--darkBlue);
+    box-shadow: var(--btn-box-shadow);
+    font-weight: bold;
+}
+
+.active {
+    background-color: var(--secondary-text-color) !important;
+    color: var(--lightBlue) !important;
+    border-radius: 10px !important;
+    box-shadow: var(--btn-box-shadow) !important;
+    font-weight: bold;
+}
+
+.logoDiv {
+    position: absolute;
+    width: 140px;
+    height: 71px;
+    top: 0;
+    background-color: var(--secondary-text-color);
+    box-shadow: var(--btn-box-shadow);
+    border-radius: 0 0 30px 0;
+}
