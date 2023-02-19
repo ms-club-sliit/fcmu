@@ -2,6 +2,8 @@
 Your one-stop portal to all things regarding SLIIT Faculty of Computing Media Unit of SLIIT  
 Read further to know how **you** can start contributing to SLIIT Faculty of Computing Media Unit! 
 
+[Here is the figma design](https://www.figma.com/file/N6h2d6l4NLU0xgI8pS9woD/Media_Club_Web_Design?node-id=0%3A1&t=8yNGgeQvDiwx3fyl-1)
+
 ![LandingPage](https://user-images.githubusercontent.com/99181964/219582187-167639a8-c6ec-4fa2-beed-cad70cf84a49.jpg)
 
 ## Quick Links
