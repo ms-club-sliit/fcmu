@@ -1,11 +1,13 @@
-import './App.css'
-import Header from "./components/client/header/Header.jsx"
+import "./App.css"
+import Header from "./components/client/common/header/Header.jsx"
+import HeroSection from "./components/client/landing/heroSection/HeroSection.jsx"
 
 function App() {
 
   return (
     <div>
-    <Header />
+      <Header />
+      <HeroSection />
     </div>
   )
 }
