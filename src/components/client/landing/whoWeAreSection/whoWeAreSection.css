@@ -1,0 +1,38 @@
+.whoWeAreSection {
+  color: var(--darkBlue);
+  font-family: 'Poppins';
+  font-style: normal;
+}
+
+.whoWeAreSection > div > h1 {
+  font-weight: 700;
+}
+
+#findMoreBtn {
+  background: linear-gradient(132.18deg, #fe5858 29.29%, #dd1f1f 66.83%, #c11416 100%) !important;
+  color: var(--btn-text-color);
+  width: 125px;
+  height: 40px;
+  border-radius: 13px;
+  font-weight: bold;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-size: 18px;
+}
+
+p {
+  text-align: justify;
+  font-weight: 700;
+}
+
+#boardOfOfficialsImg {
+  border-radius: 13px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.text-section-card {
+  background: white;
+  border: 1px solid grey;
+  border-radius: 13px;
+}
