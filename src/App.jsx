@@ -6,7 +6,7 @@ import BoardOfOfficialsImg from './assets/images/boardOfOfficials.jpg'
 
 function App() {
   const lorem =
-    'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil libero fuga quam amet porro! Quae voluptatum illo in quidem, iste libero? Veniam non dignissimos facere, repudiandae placeat qui impedit at.'
+    'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce faucibus orci ut augue rhoncus, id pharetra nisi porta. Cras nec lorem non dui ullamcorper fringilla ut eget ante. Nunc porttitor quam nec dapibus efficitur . Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce faucibus orci ut augue rhoncus, id pharetra nisi porta. Cras nec'
 
   return (
     <div>
