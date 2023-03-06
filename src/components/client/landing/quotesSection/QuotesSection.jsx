@@ -14,7 +14,7 @@ import quotes from './quotes.json'
 function QuotesSection() {
   return (
     <div className="container-fluid row px-2 pt-4 pb-4 quotesDiv">
-      <h1 className="text-center">Quotes </h1>
+      <h1 className="text-center">Quotes</h1>
       <Swiper modules={[Navigation, Pagination]} navigation pagination={{ clickable: true }}>
         {
           quotes.map((quote) => (

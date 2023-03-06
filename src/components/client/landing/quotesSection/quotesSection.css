@@ -12,8 +12,8 @@
     }
 }
 
-.quotesDiv > div > h1 {
-    font-weight: 700;
+.quotesDiv > h1 {
+    font-weight: 600;
 }
 
 .quoteCard{
