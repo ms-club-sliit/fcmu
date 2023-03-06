@@ -28,7 +28,9 @@ function UpcomingEvents() {
               <div className="col-6 ">
                   {/* <img className="heroImgSec" src={heroSecImage} alt="heroSecImage" /> */}
                   <div>
-                    <div class="container b-full"></div>
+                    <div class="container b-full">
+                      
+                    </div>
                 </div>
                 </div>
               <div className="col-md-6 ">
