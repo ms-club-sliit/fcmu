@@ -1,15 +1,14 @@
 import React from 'react'
-import './upcomingEvents.css'
 // import Swiper core and required modules
 import { Navigation, Pagination, Scrollbar, A11y } from 'swiper'
-
 import { Swiper, SwiperSlide } from 'swiper/react'
-import heroSecImage from '../../../../assets/images/heroSecImg.svg'
 // Import Swiper styles
 import 'swiper/css'
 import 'swiper/css/navigation'
 import 'swiper/css/pagination'
 import 'swiper/css/scrollbar'
+
+import './upcomingEvents.css'
 
 function UpcomingEvents() {
   return (
@@ -23,9 +22,7 @@ function UpcomingEvents() {
         <Swiper
           modules={[Navigation, Pagination]}
           navigation
-          pagination={{ clickable: true }}
-          onSwiper={(swiper) => console.log(swiper)}
-          onSlideChange={() => console.log('slide change')}>
+          pagination={{ clickable: true }}>
           <SwiperSlide>
             <div className="b-full">
               <div className="row">
