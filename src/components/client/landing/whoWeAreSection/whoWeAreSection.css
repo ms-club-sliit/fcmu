@@ -48,7 +48,6 @@ p {
     min-height: 453px;
   }
   #findMoreBtn {
-    position: absolute;
     left: 1rem;
     bottom: 1rem;
   }
@@ -63,7 +62,7 @@ p {
     height: 453px;
   }
   #findMoreBtn {
-    position: absolute;
+    margin-top: 1rem;
     left: 3rem;
     bottom: 3rem;
   }

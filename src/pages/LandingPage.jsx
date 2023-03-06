@@ -1,6 +1,6 @@
 import React from 'react'
-import HeroSection from '../components/client/landing/heroSection/HeroSection'
-import WhoWeAreSection from '../components/client/landing/whoWeAreSection/WhoWeAreSection'
+import HeroSection from '../components/client/landing/heroSection/'
+import WhoWeAreSection from '../components/client/landing/whoWeAreSection/'
 import BoardOfOfficialsImg from '../assets/images/boardOfOfficials.webp'
 
 function LandingPage() {

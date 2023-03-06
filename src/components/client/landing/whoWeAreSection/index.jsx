@@ -8,10 +8,11 @@ const WhoWeAreSection = ({ description, findMoreUrl, imgSrc }) => {
         <img id="boardOfOfficialsImg" src={imgSrc} />
       </div>
       <div className="col-md-6 col-lg-9">
-        <div className="text-section-card p-3 p-lg-5 w-100 w-lg-50">
+        <div className="text-section-card  d-flex flex-column p-3 p-lg-5 w-100 w-lg-50">
           <h1>Who We Are</h1>
           <p>{description}</p>
           <button
+            className="mt-auto"
             id="findMoreBtn"
             onClick={(e) => {
               e.preventDefault()
