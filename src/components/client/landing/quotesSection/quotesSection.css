@@ -1,0 +1,31 @@
+.quotesDiv{
+    margin:0px auto;
+    width: 50%;
+    color: var(--darkBlue);
+    font-family: 'Poppins';
+    font-style: normal;
+}
+
+@media screen and (max-width: 768px) {
+    .quotesDiv{
+        width: 90%;
+    }
+}
+
+.quotesDiv > div > h1 {
+    font-weight: 700;
+}
+
+.quoteCard{
+    width:80%;
+    margin: 0px auto;
+}
+
+.quotesTextParagraph{
+    text-align: justify;
+    font-weight: 500;
+}
+
+.owner{
+    text-align: right;
+}
