@@ -1,15 +1,10 @@
 import "./App.css"
-import Header from "./components/client/common/header/Header.jsx"
-import UpcomingEvents from "./components/client/common/upcomingEvents/UpcomingEvents.jsx"
-import HeroSection from "./components/client/landing/heroSection/HeroSection.jsx"
-
+import Home from "./pages/Home/home"
 function App() {
 
   return (
     <div>
-      <Header />
-      <HeroSection />
-      <UpcomingEvents />
+      <Home />
     </div>
   )
 }
