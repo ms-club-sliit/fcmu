@@ -12,23 +12,31 @@ import 'swiper/css/scrollbar'
 import quotes from './quotes.json'
 
 function QuotesSection() {
+
   return (
     <div className="container-fluid row px-2 pt-4 pb-4 quotesDiv">
       <h1 className="text-center">Quotes</h1>
-      <Swiper modules={[Navigation, Pagination]} navigation pagination={{ clickable: true }}>
-        {
-          quotes.map((quote) => (
-            <SwiperSlide>
-              <div className="quoteCard">
-                <p className="text-center quotesTextParagraph ">
-                  {quote.description}
-                </p>
-                <p className="owner">- {quote.owner} -</p>
-              </div>
-            </SwiperSlide>
-          ))
-        }
-      </Swiper>
+      {quotes.length === 0 ? (
+        <h3 className="text-center">No quotes available to display</h3>
+      ) : (
+        <div>
+          <Swiper modules={[Navigation, Pagination]} navigation pagination={{ clickable: true }}>
+            {
+              quotes.map((quote) => (
+                <SwiperSlide>
+                  <div className="quoteCard">
+                    <p className="text-center quotesTextParagraph ">
+                      {quote.description}
+                    </p>
+                    <p className="owner">- {quote.owner} -</p>
+                  </div>
+                </SwiperSlide>
+              ))
+            }
+          </Swiper>
+        </div>
+      )}
+
     </div>
   )
 }
