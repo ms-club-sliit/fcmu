@@ -1,13 +1,9 @@
-import "./App.css"
-import Header from "./components/client/common/header/Header.jsx"
-import HeroSection from "./components/client/landing/heroSection/HeroSection.jsx"
+import RouteComponent from './routes'
 
 function App() {
-
   return (
     <div>
-      <Header />
-      <HeroSection />
+      <RouteComponent />
     </div>
   )
 }
