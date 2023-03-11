@@ -5,6 +5,11 @@ function App() {
   return (
     <div>
       <Home />
+      <Header />
+      <HeroSection />
+      <QuotesSection />
+      <UpcomingEvents />
+      <RouteComponent />
     </div>
   )
 }
