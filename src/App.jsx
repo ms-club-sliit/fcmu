@@ -11,8 +11,8 @@ function App() {
       <Header />
       <HeroSection />
       <QuotesSection />
-      <UpcomingEvents />
       <RouteComponent />
+      <UpcomingEvents />
     </div>
   )
 }
