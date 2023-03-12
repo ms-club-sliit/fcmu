@@ -1,7 +1,7 @@
 import React from 'react'
 import './whoWeAreSection.css'
 
-const WhoWeAreSection = ({ description, findMoreUrl, imgSrc }) => {
+function WhoWeAreSection({ description, findMoreUrl, imgSrc }) {
   return (
     <div className="container-fluid row px-2 pt-4 pb-4 mx-auto whoWeAreSection">
       <div className="col-md-6 col-lg-3">
@@ -17,7 +17,8 @@ const WhoWeAreSection = ({ description, findMoreUrl, imgSrc }) => {
             onClick={(e) => {
               e.preventDefault()
               window.location.href = findMoreUrl
-            }}>
+            }}
+          >
             Find More
           </button>
         </div>

@@ -1,4 +1,6 @@
 import React from 'react'
+import UpcomingEvents from '../components/client/common/upcomingEvents/UpcomingEvents'
+import QuotesSection from '../components/client/landing/quotesSection/QuotesSection'
 import HeroSection from '../components/client/landing/heroSection'
 import WhoWeAreSection from '../components/client/landing/whoWeAreSection'
 import BoardOfOfficialsImg from '../assets/images/boardOfOfficials.webp'
@@ -9,7 +11,9 @@ function LandingPage() {
   return (
     <div>
       <HeroSection />
-      <WhoWeAreSection description={lorem} findMoreUrl={''} imgSrc={BoardOfOfficialsImg} />
+      <WhoWeAreSection description={lorem} findMoreUrl="" imgSrc={BoardOfOfficialsImg} />
+      <UpcomingEvents />
+      <QuotesSection />
     </div>
   )
 }

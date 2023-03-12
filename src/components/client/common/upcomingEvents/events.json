@@ -1,24 +1,24 @@
 {
-    "data":[
-        {
-            "id": "1",
-            "title": "FRESHERS RECRUTMENT",
-            "subtitle": "Calling out to all creative Volunteers",
-            "date": "03/11/2022",
-            "description": "MERRY CHRISTMAS 2022! , Wishing you good health, happiness, peace, hope, love, and prosperity, this holiday season and in the coming New Year. May the magic of Christmas fill your heart all year long. Design by: Gimhana Deshapriya Content by: Pabodha Oshadari",
-            "hashtags": "#sliit #sliitMedia",
-            "by": "BY SLIIT FCMU COMMUNITY",
-            "Who": "FCMU"
-        },
-        {
-            "id": "2",
-            "title": "2FRESHERS RECRUTMENT",
-            "subtitle": "2Calling out to all creative Volunteers",
-            "date": "03/11/2022",
-            "description": "2MERRY CHRISTMAS 2022! , Wishing you good health, happiness, peace, hope, love, and prosperity, this holiday season and in the coming New Year. May the magic of Christmas fill your heart all year long. Design by: Gimhana Deshapriya Content by: Pabodha Oshadari",
-            "hashtags": "#sliit #sliitMedia",
-            "by": "BY SLIIT FCMU COMMUNITY",
-            "Who": "FCMU"
-        }
-    ]
+  "data": [
+    {
+      "id": "1",
+      "title": "FRESHERS RECRUTMENT",
+      "subtitle": "Calling out to all creative Volunteers",
+      "date": "03/11/2022",
+      "description": "MERRY CHRISTMAS 2022! , Wishing you good health, happiness, peace, hope, love, and prosperity, this holiday season and in the coming New Year. May the magic of Christmas fill your heart all year long. Design by: Gimhana Deshapriya Content by: Pabodha Oshadari",
+      "hashtags": "#sliit #sliitMedia",
+      "by": "BY SLIIT FCMU COMMUNITY",
+      "Who": "FCMU"
+    },
+    {
+      "id": "2",
+      "title": "2FRESHERS RECRUTMENT",
+      "subtitle": "2Calling out to all creative Volunteers",
+      "date": "03/11/2022",
+      "description": "2MERRY CHRISTMAS 2022! , Wishing you good health, happiness, peace, hope, love, and prosperity, this holiday season and in the coming New Year. May the magic of Christmas fill your heart all year long. Design by: Gimhana Deshapriya Content by: Pabodha Oshadari",
+      "hashtags": "#sliit #sliitMedia",
+      "by": "BY SLIIT FCMU COMMUNITY",
+      "Who": "FCMU"
+    }
+  ]
 }
