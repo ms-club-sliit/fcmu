@@ -30,22 +30,22 @@ function Header() {
             </li>
             <li className="nav-item">
               <a href="src/components/client/header#" className="nav-link">
-                Features
+                Events
               </a>
             </li>
             <li className="nav-item">
               <a href="src/components/client/header#" className="nav-link">
-                Pricing
-              </a>
-            </li>
-            <li className="nav-item">
-              <a href="src/components/client/header#" className="nav-link">
-                FAQs
+                Community
               </a>
             </li>
             <li className="nav-item">
               <a href="src/components/client/header#" className="nav-link">
                 About
+              </a>
+            </li>
+            <li className="nav-item">
+              <a href="src/components/client/header#" className="nav-link">
+                Contact Us
               </a>
             </li>
           </ul>
