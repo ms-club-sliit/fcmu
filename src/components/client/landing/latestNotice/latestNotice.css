@@ -1,50 +1,42 @@
-
-.slideshow-container{
-    text-align: center;    
+.slideshow-container {
+  text-align: center;
 }
-.slideshow-container h2{
-    
-        color: var(--darkBlue);
-        font-family: 'Poppins';
-        font-style: normal;
-        font-size: 250%;
-        font-weight: bold;
-        
-
-      
+.slideshow-container h2 {
+  color: var(--darkBlue);
+  font-family: 'Poppins';
+  font-style: normal;
+  font-size: 250%;
+  font-weight: bold;
 }
 
 :root {
-  --slide-ratio: 3/1; 
+  --slide-ratio: 3/1;
 }
 
 .carousel {
   position: relative;
-  
-  max-width: 85vw; 
-  height: calc(100vw / var(--slide-ratio)); 
+
+  max-width: 85vw;
+  height: calc(100vw / var(--slide-ratio));
   max-height: 350px;
   margin: 3% auto;
   background: transparent;
-  
 }
 
 .carousel-images {
   width: 100%;
   height: 100%;
   object-fit: cover;
- 
 }
 
 .carousel_track-container {
   background: transparent;
-  
+
   height: 135%;
   position: relative;
   overflow: hidden;
   border-radius: 11px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
-
 }
 
 .carousel__track {
@@ -84,13 +76,21 @@
   background: var(--darkBlue);
 }
 
+.carousel-blank-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: #f8f8f8;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
 
 @media screen and (max-width: 768px) {
   .carousel {
-    height: calc((100vw - 30px) / var(--slide-ratio)); 
+    height: calc((100vw - 30px) / var(--slide-ratio));
     max-height: none;
   }
 }
-
-
-
