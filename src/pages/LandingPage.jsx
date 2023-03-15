@@ -4,6 +4,7 @@ import QuotesSection from '../components/client/landing/quotesSection/QuotesSect
 import HeroSection from '../components/client/landing/heroSection'
 import WhoWeAreSection from '../components/client/landing/whoWeAreSection'
 import BoardOfOfficialsImg from '../assets/images/boardOfOfficials.webp'
+import LatestNotice from '../components/client/landing/latestNotice/LatestNotice'
 
 function LandingPage() {
   const lorem =
@@ -12,6 +13,7 @@ function LandingPage() {
     <div>
       <HeroSection />
       <WhoWeAreSection description={lorem} findMoreUrl="" imgSrc={BoardOfOfficialsImg} />
+      <LatestNotice />
       <UpcomingEvents />
       <QuotesSection />
     </div>
