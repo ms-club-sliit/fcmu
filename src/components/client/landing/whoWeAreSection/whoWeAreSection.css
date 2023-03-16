@@ -5,7 +5,18 @@
 }
 
 .whoWeAreSection > div > h1 {
+  font-family: 'Poppins';
+  font-style: normal;
   font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  /* identical to box height, or 133% */
+
+  letter-spacing: -0.00022em;
+
+  /* darkBlue */
+
+  color: var(--darkBlue);
 }
 
 #findMoreBtn {
@@ -25,7 +36,18 @@
 
 p {
   text-align: justify;
+  font-family: 'Poppins';
+  font-style: normal;
   font-weight: 700;
+  font-size: 16px;
+  line-height: 32px;
+  /* or 200% */
+
+  letter-spacing: -0.00022em;
+
+  /* darkBlue */
+
+  color: var(--darkBlue);
 }
 
 #boardOfOfficialsImg {
@@ -37,10 +59,9 @@ p {
 .text-section-card {
   background: #ffffff;
   box-shadow: 0px -1px 10px -2px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
   position: relative;
   margin-left: auto;
-  border: 1px solid grey;
-  border-radius: 30px;
 }
 
 @media (min-width: 768px) {
