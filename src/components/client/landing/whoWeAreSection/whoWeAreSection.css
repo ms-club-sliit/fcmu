@@ -4,12 +4,12 @@
   font-style: normal;
 }
 
-.whoWeAreSection > div > h1 {
+#lp-wwas-title {
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 700;
-  font-size: 48px;
-  line-height: 64px;
+  font-size: 2.5rem;
+  line-height: 133%;
   /* identical to box height, or 133% */
 
   letter-spacing: -0.00022em;
