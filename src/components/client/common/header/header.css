@@ -1,56 +1,47 @@
 header {
     color: var(--darkBlue);
-    box-shadow: var(--btn-box-shadow);
     font-weight: bold;
-}
-
-.active {
+  }
+  
+  .active {
     background-color: var(--secondary-text-color) !important;
     color: var(--lightBlue) !important;
     border-radius: 10px !important;
     box-shadow: var(--btn-box-shadow) !important;
     font-weight: bold;
-}
-
-.logoDiv {
+  }
+  
+  .logoDiv {
     position: absolute;
     width: 140px;
     height: 71px;
     top: 0;
+    left: 0;
     background-color: var(--secondary-text-color);
     box-shadow: var(--btn-box-shadow);
     border-radius: 0 0 30px 0;
-}
-
-@media only screen and (max-width: 385px) {
-    .navUl > li > a{
-        font-size: 14px;
+  }
+  
+  .navBarCont {
+    padding-left: 120px;
+    padding-right: 25px;
+    padding-top: 20px;
+  }
+  
+  .navlinkCont {
+    flex-direction: row-reverse;
+  }
+  
+  @media screen and (max-width: 991px) {
+    .navBarCont {
+      padding-left: 0;
+      padding-right: 0;
+      padding-top: 0;
+      text-align: center;
     }
-
-}
-
-@media all and (min-width: 0) and (max-width: 500px) {
-    .logoDiv {
-        top: 0;
-        bottom: 0;
-        right: 0;
-        margin: auto;
-        width: 70px;
-        height: 124px;
-        display: block !important;
-        border-radius: 0 0 0 30px;
+  
+    .navlinkCont {
+      margin-top: 1rem;
     }
-
-    .logoDiv > div > img {
-        position: absolute;
-        width: 60px;
-        height: 35px;
-        top: 0;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        margin: auto;
-
-    }
-
-}
+  }
+  
