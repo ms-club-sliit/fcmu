@@ -12,7 +12,12 @@ function LandingPage() {
   return (
     <div>
       <HeroSection />
-      <WhoWeAreSection description={lorem} findMoreUrl="" imgSrc={BoardOfOfficialsImg} />
+      <WhoWeAreSection
+        description={lorem}
+        findMoreUrl={''}
+        imgAltText={'Board of officials image'}
+        imgSrc={BoardOfOfficialsImg}
+      />
       <LatestNotice />
       <UpcomingEvents />
       <QuotesSection />

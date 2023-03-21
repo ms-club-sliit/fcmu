@@ -10,8 +10,8 @@ function RouteComponent() {
       <Header />
       <Routes>
         <Route path="/home" element={<LandingPage />} />
-        <Route path="/" element={<LandingPage />} />
         <Route path="/events" element={<EventsPage />} />
+        <Route path="/" element={<LandingPage />} />
       </Routes>
     </Router>
   )

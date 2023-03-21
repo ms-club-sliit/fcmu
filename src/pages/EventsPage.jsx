@@ -7,7 +7,12 @@ const EventsPage = () => {
 
   return (
     <div>
-      <HeroSection description={lorem} imgSrc={manPlaysGuitarImg} title={'What are events'} />
+      <HeroSection
+        description={lorem}
+        imgAltText={'Man plays guitar image'}
+        imgSrc={manPlaysGuitarImg}
+        title={'What are events'}
+      />
     </div>
   )
 }
