@@ -1,5 +1,5 @@
 import './header.css'
-import logo from '../../../../assets/logo/FCSCMedia.png'
+import logo from '../../../../assets/logo/FCSCMedia.webp'
 import React from 'react'
 
 export default function Header() {
