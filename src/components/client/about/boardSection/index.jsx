@@ -9,6 +9,7 @@ import facebook from '../../../../assets/images/AboutPage/facebook.svg'
 import instagram from '../../../../assets/images/AboutPage/instagram.svg'
 import linkedin from '../../../../assets/images/AboutPage/linkedin.svg'
 import twitter from '../../../../assets/images/AboutPage/twitter.svg'
+import pattonBlue from '../../../../assets/images/AboutPage/patton.png'
 import './styles.css'
 
 const BoardSection = () => {
@@ -26,6 +27,7 @@ const BoardSection = () => {
 
   return (
     <div id="board-section" className="container">
+      <img className="board-patton-blue" src={pattonBlue} alt="" />
       <div className="row">
         <div className="col">
           <div className="d-block my-5">

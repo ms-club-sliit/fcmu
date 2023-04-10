@@ -1,3 +1,8 @@
+#board-section > .row {
+  z-index: 100;
+  position: relative;
+}
+
 .board-heading {
   font-family: 'Inter';
   font-style: normal;
@@ -5,7 +10,7 @@
   font-size: 48px;
   line-height: 32px;
   text-transform: uppercase;
-  color: #09496d;
+  color: var(--darkBlue);
   text-align: center;
 }
 
@@ -67,4 +72,10 @@
   padding: 10px;
   margin: 0px 20px;
   color: var(--darkBlue);
+}
+
+.board-patton-blue {
+  position: absolute;
+  right: 0px;
+  z-index: 50;
 }
