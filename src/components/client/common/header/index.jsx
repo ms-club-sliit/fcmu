@@ -1,7 +1,7 @@
-import "./header.css"
-import logo from "../../../../assets/logo/FCSCMedia.webp"
-import React from "react"
-import { Link } from "react-router-dom"
+import './header.css'
+import logo from '../../../../assets/logo/FCSCMedia.webp'
+import React from 'react'
+import { Link } from 'react-router-dom'
 
 export default function Header() {
   return (
@@ -46,7 +46,7 @@ export default function Header() {
                 </Link>
               </li>
               <li className="nav-item">
-                <a href="src/components/client/header#" className="nav-link">
+                <a href="/about" className="nav-link">
                   About
                 </a>
               </li>
