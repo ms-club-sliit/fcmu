@@ -1,7 +1,7 @@
 import React from 'react'
 // import Swiper core and required modules
-import { Navigation, Pagination, Scrollbar, A11y } from 'swiper'
-import { Swiper, SwiperSlide } from 'swiper/react'
+import {Navigation, Pagination} from 'swiper'
+import {Swiper, SwiperSlide} from 'swiper/react'
 
 import state from './events.json'
 // Import Swiper styles

@@ -1,6 +1,7 @@
 import React from 'react'
 import './heroSection.css'
 import heroSecImage from '../../../../assets/images/heroSecImg.svg'
+
 // import heroSecBackground from "../../../../assets/images/heroSecBackground.svg"
 
 function HeroSection() {

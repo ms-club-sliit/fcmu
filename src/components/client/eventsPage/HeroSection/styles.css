@@ -13,7 +13,6 @@
 
   color: var(--darkBlue);
 }
-
 .desc::first-letter {
   color: black;
   font-size: 50px;
@@ -33,6 +32,7 @@
 
   color: var(--darkBlue);
 }
+
 
 #events-hero-img {
   height: 330px;
