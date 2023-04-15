@@ -31,6 +31,13 @@
   margin-bottom: 2rem;
 }
 
+@media (min-width: 992px) {
+  #intro-section {
+    margin-right: 3rem !important;
+    margin-left: 3rem !important;
+  }
+}
+
 @media (max-width: 991px) {
   .intro-illustration {
     display: none;

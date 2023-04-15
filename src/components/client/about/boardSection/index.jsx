@@ -1,22 +1,14 @@
-/* eslint-disable no-restricted-syntax */
-/* eslint-disable react/prop-types */
-/* eslint-disable react/function-component-definition */
-/* eslint-disable react/jsx-no-useless-fragment */
-
 import { useState } from 'react'
 import boardMembers from './boardMembers.json'
-import facebook from '../../../../assets/images/AboutPage/facebook.svg'
-import instagram from '../../../../assets/images/AboutPage/instagram.svg'
-import linkedin from '../../../../assets/images/AboutPage/linkedin.svg'
-import twitter from '../../../../assets/images/AboutPage/twitter.svg'
 import pattonBlue from '../../../../assets/images/AboutPage/patton.png'
 import './styles.css'
 
-const BoardSection = () => {
-  const [members, setMembers] = useState(boardMembers[0].members)
+function BoardSection() {
+  // By default use 2022 board. Json index [1]
+  const [members, setMembers] = useState(boardMembers[1].members)
 
   const ArrangeBoard = (event) => {
-    const year = event.target.value || 2023
+    const year = event.target.value || 2022
 
     for (const board of boardMembers) {
       if (board.year === year) {
@@ -37,7 +29,9 @@ const BoardSection = () => {
           <div className="d-flex justify-content-center my-5">
             <select name="" id="board-year" onChange={ArrangeBoard}>
               <option value="2023">2023</option>
-              <option value="2022">2022</option>
+              <option value="2022" selected>
+                2022
+              </option>
               <option value="2021">2021</option>
             </select>
           </div>
@@ -48,16 +42,14 @@ const BoardSection = () => {
         <div className="board-cards">
           {members.length <= 0 ? <h2>No member details found</h2> : ''}
           {members.map((member) => (
-            <>
-              <div className="col-12 col-md-6 col-lg-4">
-                <BoardCard
-                  src={member.imgSrc}
-                  name={member.name}
-                  position={member.position}
-                  socials={member.socials}
-                />
-              </div>
-            </>
+            <div className="col-12 col-md-6 col-lg-4">
+              <BoardCard
+                src={member.imgSrc}
+                name={member.name}
+                position={member.position}
+                socials={member.socials}
+              />
+            </div>
           ))}
         </div>
       </div>
@@ -65,7 +57,7 @@ const BoardSection = () => {
   )
 }
 
-const BoardCard = (props) => {
+function BoardCard(props) {
   const { src, name, position, socials } = props
   return (
     <div className="board-card">
@@ -83,38 +75,38 @@ const BoardCard = (props) => {
 }
 
 // Socials
-const SocialFacebook = (props) => {
+function SocialFacebook(props) {
   const { profileLink } = props
   return (
     <a href={profileLink} target="_blank" className="social-link" rel="noreferrer">
-      <img className="social-icon" src={facebook} alt="facebook" />
+      <i className="social-icon fa fa-facebook" aria-hidden="true" />
     </a>
   )
 }
 
-const SocialInstagram = (props) => {
+function SocialInstagram(props) {
   const { profileLink } = props
   return (
     <a href={profileLink} target="_blank" className="social-link" rel="noreferrer">
-      <img className="social-icon" src={instagram} alt="instagram" />
+      <i className="social-icon fa fa-instagram" aria-hidden="true" />
     </a>
   )
 }
 
-const SocialLinkedin = (props) => {
+function SocialLinkedin(props) {
   const { profileLink } = props
   return (
     <a href={profileLink} target="_blank" className="social-link" rel="noreferrer">
-      <img className="social-icon" src={linkedin} alt="linkedin" />
+      <i className="social-icon fa fa-linkedin" aria-hidden="true" />
     </a>
   )
 }
 
-const SocialTwitter = (props) => {
+function SocialTwitter(props) {
   const { profileLink } = props
   return (
     <a href={profileLink} target="_blank" className="social-link" rel="noreferrer">
-      <img className="social-icon" src={twitter} alt="twitter" />
+      <i className="social-icon fa fa-twitter" aria-hidden="true" />
     </a>
   )
 }

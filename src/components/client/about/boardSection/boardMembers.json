@@ -5,7 +5,7 @@
       {
         "name": "Amila Perera",
         "position": "President",
-        "imgSrc": "https://randomuser.me/api/portraits/lego/7.jpg",
+        "imgSrc": "/memberPics/AmilaPerera.png",
         "socials": {
           "facebook": true,
           "instagram": true,
@@ -15,7 +15,7 @@
       {
         "name": "Ayodya Banuka",
         "position": "Vice President",
-        "imgSrc": "https://randomuser.me/api/portraits/lego/0.jpg",
+        "imgSrc": "/memberPics/AyodyaBanuka.png",
         "socials": {
           "facebook": true,
           "instagram": true,
@@ -26,7 +26,7 @@
       {
         "name": "Diyon Yasawin",
         "position": "Secretor",
-        "imgSrc": "https://randomuser.me/api/portraits/lego/5.jpg",
+        "imgSrc": "/memberPics/DiyonYasaswin.png",
         "socials": {
           "facebook": true,
           "linkedin": true,
@@ -36,7 +36,17 @@
       {
         "name": "Amila Perera",
         "position": "President",
-        "imgSrc": "https://randomuser.me/api/portraits/lego/7.jpg",
+        "imgSrc": "/memberPics/AmilaPerera.png",
+        "socials": {
+          "facebook": true,
+          "instagram": true,
+          "linkedin": true
+        }
+      },
+      {
+        "name": "Ayodya Banuka",
+        "position": "Vice President",
+        "imgSrc": "/memberPics/AyodyaBanuka.png",
         "socials": {
           "facebook": true,
           "instagram": true,
@@ -45,22 +55,11 @@
         }
       },
       {
-        "name": "Ayodya Banuka",
-        "position": "Vice President",
-        "imgSrc": "https://randomuser.me/api/portraits/lego/0.jpg",
-        "socials": {
-          "facebook": true,
-          "instagram": true,
-          "twitter": true
-        }
-      },
-      {
         "name": "Diyon Yasawin",
         "position": "Secretor",
-        "imgSrc": "https://randomuser.me/api/portraits/lego/5.jpg",
+        "imgSrc": "/memberPics/DiyonYasaswin.png",
         "socials": {
           "facebook": true,
-          "instagram": true,
           "linkedin": true,
           "twitter": true
         }
@@ -68,7 +67,17 @@
       {
         "name": "Amila Perera",
         "position": "President",
-        "imgSrc": "https://randomuser.me/api/portraits/lego/7.jpg",
+        "imgSrc": "/memberPics/AmilaPerera.png",
+        "socials": {
+          "facebook": true,
+          "instagram": true,
+          "linkedin": true
+        }
+      },
+      {
+        "name": "Ayodya Banuka",
+        "position": "Vice President",
+        "imgSrc": "/memberPics/AyodyaBanuka.png",
         "socials": {
           "facebook": true,
           "instagram": true,
@@ -77,22 +86,11 @@
         }
       },
       {
-        "name": "Ayodya Banuka",
-        "position": "Vice President",
-        "imgSrc": "https://randomuser.me/api/portraits/lego/0.jpg",
-        "socials": {
-          "facebook": true,
-          "instagram": true,
-          "twitter": true
-        }
-      },
-      {
         "name": "Diyon Yasawin",
         "position": "Secretor",
-        "imgSrc": "https://randomuser.me/api/portraits/lego/5.jpg",
+        "imgSrc": "/memberPics/DiyonYasaswin.png",
         "socials": {
           "facebook": true,
-          "instagram": true,
           "linkedin": true,
           "twitter": true
         }
@@ -101,7 +99,39 @@
   },
   {
     "year": "2022",
-    "members": []
+    "members": [
+      {
+        "name": "Amila Perera",
+        "position": "President",
+        "imgSrc": "/memberPics/AmilaPerera.png",
+        "socials": {
+          "facebook": true,
+          "instagram": true,
+          "linkedin": true
+        }
+      },
+      {
+        "name": "Ayodya Banuka",
+        "position": "Vice President",
+        "imgSrc": "/memberPics/AyodyaBanuka.png",
+        "socials": {
+          "facebook": true,
+          "instagram": true,
+          "linkedin": true,
+          "twitter": true
+        }
+      },
+      {
+        "name": "Diyon Yasawin",
+        "position": "Secretor",
+        "imgSrc": "/memberPics/DiyonYasaswin.png",
+        "socials": {
+          "facebook": true,
+          "linkedin": true,
+          "twitter": true
+        }
+      }
+    ]
   },
   {
     "year": "2021",

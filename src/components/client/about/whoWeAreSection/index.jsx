@@ -1,10 +1,7 @@
-/* eslint-disable react/jsx-no-useless-fragment */
-/* eslint-disable react/function-component-definition */
-
 import illustration from '../../../../assets/images/AboutPage/peps-looking-at-laptop.png'
 import './styles.css'
 
-const WhoWeAreSection = () => {
+function WhoWeAreSection() {
   return (
     <div id="intro-section" className="container">
       <div className="row">
