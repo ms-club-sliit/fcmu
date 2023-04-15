@@ -5,6 +5,7 @@ import EventsPage from '../pages/EventsPage'
 import LandingPage from '../pages/LandingPage'
 import CommunityPage from '../pages/CommunityPage'
 import AboutPage from '../pages/AboutPage'
+import ContactUs from '../pages/ContactUs.jsx'
 
 function RouteComponent() {
   return (
@@ -15,6 +16,7 @@ function RouteComponent() {
         <Route path="/events" element={<EventsPage />} />
         <Route path="/community" element={<CommunityPage />} />
         <Route path="/about" element={<AboutPage />} />
+        <Route path="/contactUs" element={<ContactUs />} />
         <Route path="/" element={<LandingPage />} />
       </Routes>
     </Router>

@@ -9,17 +9,18 @@ function WhoWeAreSection({ description, findMoreUrl, imgAltText, imgSrc }) {
       </div>
       <div className="col-md-6 col-lg-11">
         <div className="text-section-card  d-flex flex-column p-3 p-lg-5 w-100 w-lg-50">
-          <h2 id="lp-wwas-title">Who We Are</h2>
-          <p>{description}</p>
-          <button
-            className="mt-auto"
-            id="findMoreBtn"
-            onClick={(e) => {
-              e.preventDefault()
-              window.location.href = findMoreUrl
-            }}>
-            Find More
-          </button>
+            <h2 id="lp-wwas-title">Who We Are</h2>
+            <p>{description}</p>
+            <button
+                className="mt-auto"
+                id="findMoreBtn"
+                onClick={(e) => {
+                    e.preventDefault()
+                    window.location.href = findMoreUrl
+                }}
+            >
+                Find More
+            </button>
         </div>
       </div>
     </div>

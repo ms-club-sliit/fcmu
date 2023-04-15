@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React, {useEffect} from 'react'
 import './latestNotice.css'
 
 import notice1 from './../../../../assets/images/notice/notice1.webp'
@@ -97,11 +97,10 @@ function LatestNotice() {
         {images.length > 0 && (
           <div className="carousel__nav">
             {images.map((_, index) => (
-              <button
-                key={index}
-                className={
-                  index === 0 ? 'carousel_indicator current-slide' : 'carousel_indicator'
-                }></button>
+                <button
+                    key={index}
+                    className={index === 0 ? 'carousel_indicator current-slide' : 'carousel_indicator'}
+                ></button>
             ))}
           </div>
         )}
