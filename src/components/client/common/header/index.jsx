@@ -1,7 +1,7 @@
+import './header.css'
+import logo from '../../../../assets/logo/FCSCMedia.webp'
 import React from 'react'
 import { Link } from 'react-router-dom'
-import logo from '../../../../assets/logo/FCSCMedia.webp'
-import './header.css'
 
 export default function Header() {
   return (
@@ -22,7 +22,8 @@ export default function Header() {
             data-bs-target="#navbarNavDropdown"
             aria-controls="navbarNavDropdown"
             aria-expanded="false"
-            aria-label="Toggle navigation">
+            aria-label="Toggle navigation"
+          >
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="navlinkCont collapse navbar-collapse" id="navbarNavDropdown">
@@ -31,7 +32,8 @@ export default function Header() {
                 <a
                   href="src/components/client/header#"
                   className="nav-link active"
-                  aria-current="page">
+                  aria-current="page"
+                >
                   Home
                 </a>
               </li>
