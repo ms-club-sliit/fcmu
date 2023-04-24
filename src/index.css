@@ -5,6 +5,7 @@ body {
 }
 
 :root {
+  --white: #fff;
   --darkBlue: #09496d;
   --lightBlue: #0177bf;
   --gradiantRed: linear-gradient(132.18deg, #fe5858 29.29%, #dd1f1f 66.83%, #c11416 100%);

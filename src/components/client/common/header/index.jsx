@@ -48,9 +48,9 @@ export default function Header() {
                 </Link>
               </li>
               <li className="nav-item">
-                <a href="src/components/client/header#" className="nav-link">
+                <Link to="/about" className="nav-link">
                   About
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
                 <Link to="/contactUs" className="nav-link">

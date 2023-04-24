@@ -1,0 +1,45 @@
+#intro-section {
+  color: var(--darkBlue);
+  margin-top: 4rem;
+}
+
+.para-dark-blue {
+  color: var(--darkBlue);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 35px;
+}
+
+.firstcharacter {
+  font-size: 50px;
+}
+
+.intro-header {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.intro-illustration {
+  width: 450px;
+  object-fit: cover;
+  position: absolute;
+  right: 0px;
+  top: 6rem;
+}
+
+.spacer-bottom {
+  margin-bottom: 2rem;
+}
+
+@media (min-width: 992px) {
+  #intro-section {
+    margin-right: 3rem !important;
+    margin-left: 3rem !important;
+  }
+}
+
+@media (max-width: 991px) {
+  .intro-illustration {
+    display: none;
+  }
+}
