@@ -1,5 +1,8 @@
 import HeroSection from '../components/client/eventsPage/HeroSection'
 import manPlaysGuitarImg from '../assets/images/EventsPage/manPlaysGuitar.svg'
+import Events from '../components/client/common/EventsComponent/Events'
+
+import mainEvents from '../components/client/common/EventsComponent/upcomingEvents.json'
 
 const EventsPage = () => {
   const lorem =
@@ -13,6 +16,8 @@ const EventsPage = () => {
         imgSrc={manPlaysGuitarImg}
         title={'What are events'}
       />
+
+      <Events eventData={mainEvents} mainTitle={'MAIN EVENTS'} />
     </div>
   )
 }

@@ -6,7 +6,18 @@
       "subtitle": "Calling out to all creative Volunteers",
       "date": "03/11/2022",
       "description": "MERRY CHRISTMAS 2022! , Wishing you good health, happiness, peace, hope, love, and prosperity, this holiday season and in the coming New Year. May the magic of Christmas fill your heart all year long. Design by: Gimhana Deshapriya Content by: Pabodha Oshadari",
-      "hashtags": "#sliit #sliitMedia",
+      "hashtags": [
+        {
+          "id": "1",
+          "text": "#sliit",
+          "link": "https://www.google.com"
+        },
+        {
+          "id": "2",
+          "text": "#sliitMedia",
+          "link": "#"
+        }
+      ],
       "by": "BY SLIIT FCMU COMMUNITY",
       "Who": "FCMU"
     },
@@ -16,7 +27,18 @@
       "subtitle": "2Calling out to all creative Volunteers",
       "date": "03/11/2022",
       "description": "2MERRY CHRISTMAS 2022! , Wishing you good health, happiness, peace, hope, love, and prosperity, this holiday season and in the coming New Year. May the magic of Christmas fill your heart all year long. Design by: Gimhana Deshapriya Content by: Pabodha Oshadari",
-      "hashtags": "#sliit #sliitMedia",
+      "hashtags": [
+        {
+          "id": "",
+          "text": "",
+          "link": ""
+        },
+        {
+          "id": "",
+          "text": "",
+          "link": ""
+        }
+      ],
       "by": "BY SLIIT FCMU COMMUNITY",
       "Who": "FCMU"
     }

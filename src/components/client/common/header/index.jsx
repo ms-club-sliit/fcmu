@@ -1,9 +1,17 @@
 import './header.css'
 import logo from '../../../../assets/logo/FCSCMedia.webp'
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { Link, useLocation } from 'react-router-dom'
+import { useState, useEffect } from 'react'
 
 export default function Header() {
+  const location = useLocation()
+  const [url, setUrl] = useState(null)
+
+  useEffect(() => {
+    setUrl(location.pathname)
+  }, [location])
+
   return (
     <header>
       <nav className="navBarCont navbar navbar-expand-lg bg-body-tertiary">
@@ -11,7 +19,7 @@ export default function Header() {
           <a className="navbar-brand" href="#">
             <div className="logoDiv d-flex justify-content-center align-items-center">
               <div>
-                <img src={logo} alt="" width="90" />
+                <img src={logo} alt="Media Unit logo" width="90" />
               </div>
             </div>
           </a>
@@ -22,8 +30,7 @@ export default function Header() {
             data-bs-target="#navbarNavDropdown"
             aria-controls="navbarNavDropdown"
             aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
+            aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="navlinkCont collapse navbar-collapse" id="navbarNavDropdown">
@@ -31,29 +38,32 @@ export default function Header() {
               <li className="nav-item">
                 <Link
                   to="/"
-                  className="nav-link active"
-                  aria-current="page"
-                >
+                  className={url === '/' ? 'nav-link active' : 'nav-link'}
+                  aria-current="page">
                   Home
                 </Link>
               </li>
               <li className="nav-item">
-                <Link to="events" className="nav-link">
+                <Link to="/events" className={url === '/events' ? 'nav-link active' : 'nav-link'}>
                   Events
                 </Link>
               </li>
               <li className="nav-item">
-                <Link to="/community" className="nav-link">
+                <Link
+                  to="/community"
+                  className={url === '/community' ? 'nav-link active' : 'nav-link'}>
                   Community
                 </Link>
               </li>
               <li className="nav-item">
-                <Link to="/about" className="nav-link">
+                <a href="/about" className={url === '/about' ? 'nav-link active' : 'nav-link'}>
                   About
-                </Link>
+                </a>
               </li>
               <li className="nav-item">
-                <Link to="/contactUs" className="nav-link">
+                <Link
+                  to="/contactUs"
+                  className={url === '/contactUs' ? 'nav-link active' : 'nav-link'}>
                   Contact us
                 </Link>
               </li>

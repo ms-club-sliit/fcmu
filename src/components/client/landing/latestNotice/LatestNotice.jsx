@@ -70,6 +70,7 @@ function LatestNotice() {
       <div className="slideshow-container">
         <h2>LATEST NOTICES </h2>
       </div>
+
       <div className="carousel">
         <div className="carousel_track-container">
           <ul className="carousel__track">
@@ -99,8 +100,9 @@ function LatestNotice() {
             {images.map((_, index) => (
               <button
                 key={index}
-                className={index === 0 ? 'carousel_indicator current-slide' : 'carousel_indicator'}
-              ></button>
+                className={
+                  index === 0 ? 'carousel_indicator current-slide' : 'carousel_indicator'
+                }></button>
             ))}
           </div>
         )}

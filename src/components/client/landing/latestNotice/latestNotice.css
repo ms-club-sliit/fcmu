@@ -15,10 +15,8 @@
 
 .carousel {
   position: relative;
-
   max-width: 85vw;
   height: calc(100vw / var(--slide-ratio));
-  max-height: 350px;
   margin: 3% auto;
   background: transparent;
 }
@@ -32,7 +30,7 @@
 .carousel_track-container {
   background: transparent;
 
-  height: 135%;
+  height: 100%;
   position: relative;
   overflow: hidden;
   border-radius: 11px;
