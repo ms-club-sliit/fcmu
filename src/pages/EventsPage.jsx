@@ -2,7 +2,7 @@ import HeroSection from '../components/client/eventsPage/HeroSection'
 import manPlaysGuitarImg from '../assets/images/EventsPage/manPlaysGuitar.svg'
 import Events from '../components/client/common/EventsComponent/Events'
 
-import mainEvents from '../components/client/common/EventsComponent/upcomingEvents.json'
+import mainEvents from '../components/client/common/EventsComponent/mainEvents.json'
 
 const EventsPage = () => {
   const lorem =

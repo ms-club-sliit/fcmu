@@ -15,7 +15,7 @@
 
 .carousel {
   position: relative;
-  max-width: 85vw;
+  width: 100%;
   height: calc(100vw / var(--slide-ratio));
   margin: 3% auto;
   background: transparent;
