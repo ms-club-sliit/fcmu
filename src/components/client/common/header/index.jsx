@@ -29,18 +29,18 @@ export default function Header() {
           <div className="navlinkCont collapse navbar-collapse" id="navbarNavDropdown">
             <ul className="navbar-nav nav-pills gap-2">
               <li className="nav-item">
-                <a
-                  href="src/components/client/header#"
+                <Link
+                  to="/"
                   className="nav-link active"
                   aria-current="page"
                 >
                   Home
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a href="src/components/client/header#" className="nav-link">
+                <Link to="events" className="nav-link">
                   Events
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
                 <Link to="/community" className="nav-link">
