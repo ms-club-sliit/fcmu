@@ -1,6 +1,7 @@
 import './styles.css'
 
-const HeroSection = ({ description, imgAltText, imgSrc, title }) => {
+// eslint-disable-next-line react/prop-types
+function HeroSection({ description, imgAltText, imgSrc, title }) {
   return (
     <div>
       <div id="contactus-hero-section" className="container-fluid row px-2 pt-4 m-0">

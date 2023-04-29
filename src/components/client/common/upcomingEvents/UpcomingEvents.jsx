@@ -5,9 +5,13 @@ import { Swiper, SwiperSlide } from 'swiper/react'
 
 import state from './events.json'
 // Import Swiper styles
+// eslint-disable-next-line import/no-unresolved
 import 'swiper/css'
+// eslint-disable-next-line import/no-unresolved
 import 'swiper/css/navigation'
+// eslint-disable-next-line import/no-unresolved
 import 'swiper/css/pagination'
+// eslint-disable-next-line import/no-unresolved
 import 'swiper/css/scrollbar'
 
 import './upcomingEvents.css'
@@ -28,7 +32,7 @@ function UpcomingEvents() {
               <div className="b-full">
                 <div className="row">
                   <div className="col-lg-5 ">
-                    <div className="image p-5 h-full w-full"></div>
+                    <div className="image p-5 h-full w-full" />
                   </div>
                   <div className="col-lg-7 text-color align-self-center">
                     <div className="px-0 py-5 py-lg-0 px-lg-5">
