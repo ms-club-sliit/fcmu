@@ -1,7 +1,7 @@
 import HeroSection from '../components/client/eventsPage/HeroSection'
 import manPlaysGuitarImg from '../assets/images/EventsPage/manPlaysGuitar.svg'
 import Events from '../components/client/common/EventsComponent/Events'
-
+import LatestNotice from '../components/client/landing/latestNotice/LatestNotice'
 import mainEvents from '../components/client/common/EventsComponent/mainEvents.json'
 
 const EventsPage = () => {
@@ -16,7 +16,7 @@ const EventsPage = () => {
         imgSrc={manPlaysGuitarImg}
         title={'What are events'}
       />
-
+      <LatestNotice />
       <Events eventData={mainEvents} mainTitle={'MAIN EVENTS'} />
     </div>
   )

@@ -1,17 +1,9 @@
 import './header.css'
 import logo from '../../../../assets/logo/FCSCMedia.webp'
 import React from 'react'
-import { Link, useLocation } from 'react-router-dom'
-import { useState, useEffect } from 'react'
+import { NavLink } from 'react-router-dom'
 
 export default function Header() {
-  const location = useLocation()
-  const [url, setUrl] = useState(null)
-
-  useEffect(() => {
-    setUrl(location.pathname)
-  }, [location])
-
   return (
     <header>
       <nav className="navBarCont navbar navbar-expand-lg bg-body-tertiary">
@@ -19,7 +11,7 @@ export default function Header() {
           <a className="navbar-brand" href="#">
             <div className="logoDiv d-flex justify-content-center align-items-center">
               <div>
-                <img src={logo} alt="Media Unit logo" width="90" />
+                <img src={logo} alt="" width="90" />
               </div>
             </div>
           </a>
@@ -36,36 +28,29 @@ export default function Header() {
           <div className="navlinkCont collapse navbar-collapse" id="navbarNavDropdown">
             <ul className="navbar-nav nav-pills gap-2">
               <li className="nav-item">
-                <Link
-                  to="/"
-                  className={url === '/' ? 'nav-link active' : 'nav-link'}
-                  aria-current="page">
+                <NavLink to="/" className="nav-link" aria-current="page" activeClassName="active">
                   Home
-                </Link>
+                </NavLink>
               </li>
               <li className="nav-item">
-                <Link to="/events" className={url === '/events' ? 'nav-link active' : 'nav-link'}>
+                <NavLink to="events" className="nav-link" activeClassName="active">
                   Events
-                </Link>
+                </NavLink>
               </li>
               <li className="nav-item">
-                <Link
-                  to="/community"
-                  className={url === '/community' ? 'nav-link active' : 'nav-link'}>
+                <NavLink to="/community" className="nav-link" activeClassName="active">
                   Community
-                </Link>
+                </NavLink>
               </li>
               <li className="nav-item">
-                <a href="/about" className={url === '/about' ? 'nav-link active' : 'nav-link'}>
-                  About
-                </a>
+                <NavLink to="/about" className="nav-link" activeClassName="active">
+                  About us
+                </NavLink>
               </li>
               <li className="nav-item">
-                <Link
-                  to="/contactUs"
-                  className={url === '/contactUs' ? 'nav-link active' : 'nav-link'}>
+                <NavLink to="/contactUs" className="nav-link" activeClassName="active">
                   Contact us
-                </Link>
+                </NavLink>
               </li>
             </ul>
           </div>
