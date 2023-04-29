@@ -1,0 +1,90 @@
+.whoWeAreSection {
+  color: var(--darkBlue);
+  font-family: 'Poppins';
+  font-style: normal;
+}
+
+#lp-wwas-title {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 133%;
+  /* identical to box height, or 133% */
+
+  letter-spacing: -0.00022em;
+
+  /* darkBlue */
+
+  color: var(--darkBlue);
+}
+
+#findMoreBtn {
+  width: 231px;
+  height: 66px;
+  background: linear-gradient(132.18deg, #fe5858 29.29%, #dd1f1f 66.83%, #c11416 100%);
+  border-radius: 17px;
+  border: none;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 64px;
+  letter-spacing: -0.00022em;
+  color: #ffffff;
+}
+
+p {
+  text-align: justify;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 32px;
+  /* or 200% */
+
+  letter-spacing: -0.00022em;
+
+  /* darkBlue */
+
+  color: var(--darkBlue);
+}
+
+#boardOfOfficialsImg {
+  border-radius: 17px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.text-section-card {
+  background: #ffffff;
+  box-shadow: 0px -1px 10px -2px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+  position: relative;
+  margin-left: auto;
+}
+
+@media (min-width: 768px) {
+  .text-section-card {
+    min-height: 453px;
+  }
+  #findMoreBtn {
+    left: 1rem;
+    bottom: 1rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .w-lg-50 {
+    width: 50% !important;
+  }
+  #boardOfOfficialsImg {
+    width: 450px;
+    height: 453px;
+  }
+  #findMoreBtn {
+    margin-top: 1rem;
+    left: 3rem;
+    bottom: 3rem;
+  }
+}

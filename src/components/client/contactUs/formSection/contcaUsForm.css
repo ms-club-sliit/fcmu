@@ -1,0 +1,62 @@
+.formCard{
+    /* Rectangle 11 */
+    width: 98%;
+    height: fit-content;
+    padding-bottom: 40px;
+    /* white */
+    background: #FFFFFF;
+    box-shadow: 0px -1px 10px -2px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+}
+
+.btnSubmit{
+    width: 150px;
+    height: 50px;
+    filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.35));
+    background: linear-gradient(132.18deg, #FE5858 29.29%, #DD1F1F 66.83%, #C11416 100%);
+    border-radius: 17px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    /* identical to box height, or 267% */
+    letter-spacing: -0.00022em;
+    /* white */
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.btnSubmit:hover{
+    background: #09496D;
+    color: #FFFFFF;
+}
+input{
+    padding-left: 10px;
+    height: 50px;
+    width: 579px;
+    border: none;
+    outline: none;
+    background: #FFFFFF;
+    box-shadow: 0 -1px 10px -2px rgba(155, 155, 155, 0.4);
+    border-radius: 15px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    /* identical to box height */
+    color: rgba(9, 73, 109, 0.37);
+}
+
+textarea{
+    padding-left: 10px;
+    width:fit-content;
+    height:345px;
+    background: #FFFFFF;
+    box-shadow: 0 -1px 10px -2px rgba(155, 155, 155, 0.4);
+    border-radius: 15px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    /* identical to box height */
+    color: rgba(9, 73, 109, 0.37);
+}
