@@ -1,25 +1,22 @@
-import React from 'react'
+import React from "react"
 // import Swiper core and required modules
-import { Navigation, Pagination } from 'swiper'
-import { Swiper, SwiperSlide } from 'swiper/react'
+import { Navigation, Pagination } from "swiper"
+import { Swiper, SwiperSlide } from "swiper/react"
 
-import state from './events.json'
+import state from "./events.json"
 // Import Swiper styles
-// eslint-disable-next-line import/no-unresolved
-import 'swiper/css'
-// eslint-disable-next-line import/no-unresolved
-import 'swiper/css/navigation'
-// eslint-disable-next-line import/no-unresolved
-import 'swiper/css/pagination'
-// eslint-disable-next-line import/no-unresolved
-import 'swiper/css/scrollbar'
+import "swiper/css"
+import "swiper/css/navigation"
+import "swiper/css/pagination"
+import "swiper/css/scrollbar"
 
-import './upcomingEvents.css'
+
+import "./upcomingEvents.css"
 
 function UpcomingEvents() {
   // let data = require('./events.json')
   return (
-    <div className="container mb-5">
+    <div className="container mb-5" id="upcomingDiv">
       <div className="text-center text-color pb-5">
         <h2>
           <b>UPCOMING EVENTS</b>

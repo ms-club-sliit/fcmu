@@ -17,6 +17,7 @@ const EventsPage = () => {
       />
       <LatestNotice />
       <UpcomingEvents />
+
     </div>
   )
 }
