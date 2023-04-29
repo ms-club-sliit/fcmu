@@ -1,16 +1,10 @@
 import React from 'react'
-import MainEvents from '../components/client/eventsPage/MainEvent/MainEvents.jsx'
+import UpcomingEvents from '../components/client/common/upcomingEvents/UpcomingEvents'
 import QuotesSection from '../components/client/landing/quotesSection/QuotesSection'
 import HeroSection from '../components/client/landing/heroSection'
 import WhoWeAreSection from '../components/client/landing/whoWeAreSection'
 import BoardOfOfficialsImg from '../assets/images/boardOfOfficials.webp'
 import LatestNotice from '../components/client/landing/latestNotice/LatestNotice'
-import mainEvents from '../components/client/eventsPage/MainEvent/mainEvents.json'
-import upcomingEvents from '../components/client/eventsPage/UpComingEvent/events.json'
-import UpcomingEvents from '../components/client/eventsPage/UpComingEvent/UpcomingEvents.jsx'
-
-
-import upcomingEvents from '../components/client/common/EventsComponent/upcomingEvents.json'
 
 function LandingPage() {
   const content =
