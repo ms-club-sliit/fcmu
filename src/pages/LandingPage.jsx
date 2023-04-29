@@ -1,12 +1,10 @@
 import React from 'react'
-import Events from '../components/client/common/EventsComponent/Events'
+import UpcomingEvents from '../components/client/common/upcomingEvents/UpcomingEvents'
 import QuotesSection from '../components/client/landing/quotesSection/QuotesSection'
 import HeroSection from '../components/client/landing/heroSection'
 import WhoWeAreSection from '../components/client/landing/whoWeAreSection'
 import BoardOfOfficialsImg from '../assets/images/boardOfOfficials.webp'
 import LatestNotice from '../components/client/landing/latestNotice/LatestNotice'
-
-import upcomingEvents from '../components/client/common/EventsComponent/upcomingEvents.json'
 
 function LandingPage() {
   const content =
@@ -26,7 +24,7 @@ function LandingPage() {
         imgSrc={BoardOfOfficialsImg}
       />
       <LatestNotice />
-      <Events eventData={upcomingEvents} mainTitle={'UPCOMING EVENTS'} />
+      <UpcomingEvents />
       <QuotesSection />
     </div>
   )
