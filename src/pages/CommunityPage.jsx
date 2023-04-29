@@ -8,56 +8,23 @@ function CommunityPage(props) {
   return (
     <div>
       <HeroSection
-        description="Lorem ipsum dolor sit amet consectetur. Vulputate
-                   iaculis facilisis consequat nec amet mi morbi blandit.
-                   Facilisis posuere blandit massa turpis nulla. Sed risus
-                   tellus nunc pellentesque. Suspendisse arcu commodo bibendum
-                   risus. Amet risus facilisis vitae tellus adipiscing semper
-                   arcu risus. Viverra non dui dui sodales auctor neque
-                   phasellus varius. Vulputate lobortis felis diam eu at
-                   viverra nulla. Eu nulla arcu in quam. Vitae justo ultrices
-                   pellentesque in orci nulla duis. Neque non enim laoreet "
+        description="The Sliit Media Unit is an essential part of the campus community, providing valuable support to various departments and faculties within the university. This group of volunteers is responsible for capturing important moments and creating content that promotes the university's activities, achievements, and events."
         imgAltText="lorem ipsum"
         imgSrc={communityHero}
         title={{ titleOne: 'SLIIT', titleTwo: 'Faculty of Computing', titleThree: 'Media Unit' }}
       />
       <div className="container-fluid row px-2 pb-4 m-0">
         <p>
-          faucibus sollicitudin. Feugiat turpis velit fermentum metus. Ipsum ultrices quam egestas
-          turpis in. Sapien nulla magnis ornare nulla. Consectetur blandit pellentesque tortor
-          sagittis enim suspendisse. Varius vitae ullamcorper mus ultricies in a lorem id egestas.
-          Cras cum vitae blandit massa. faucibus sollicitudin. Feugiat turpis velit fermentum metus.
-          Ipsum ultrices quam egestas turpis in. Sapien nulla magnis ornare nulla. Consectetur
-          blandit pellentesque tortor sagittis enim suspendisse. Varius vitae ullamcorper mus
-          ultricies in a lorem id egestas. Cras cum vitae blandit massa.
+          One of the primary roles of the Sliit Media Unit is photography. They use their skills and expertise to take high-quality photographs that document the university's activities, including workshops, seminars, and cultural events. These images are used for promotional materials, social media, and other marketing campaigns.
         </p>
         <img className="px-0" src={communityImg} alt="community image" />
 
         <p className="mt-4">
-          faucibus sollicitudin. Feugiat turpis velit fermentum metus. Ipsum ultrices quam egestas
-          turpis in. Sapien nulla magnis ornare nulla. Consectetur blandit pellentesque tortor
-          sagittis enim suspendisse. Varius vitae ullamcorper mus ultricies in a lorem id egestas.
-          Cras cum vitae blandit massa. faucibus sollicitudin. Feugiat turpis velit fermentum metus.
-          Ipsum ultrices quam egestas turpis in. Sapien nulla magnis ornare nulla. Consectetur
-          blandit pellentesque tortor sagittis enim suspendisse. Varius vitae ullamcorper mus
-          ultricies in a lorem id egestas. Cras cum vitae blandit massa.
+          Creative writing is another important aspect of the Sliit Media Unit's work. They are responsible for creating engaging content that tells stories about the university, its people, and its achievements. This content is used for newsletters, blogs, and other digital platforms, helping to promote the university to a wider audience.
         </p>
 
         <p className="mt-4">
-          faucibus sollicitudin. Feugiat turpis velit fermentum metus. Ipsum ultrices quam egestas
-          turpis in. Sapien nulla magnis ornare nulla. Consectetur blandit pellentesque tortor
-          sagittis enim suspendisse. Varius vitae ullamcorper mus ultricies in a lorem id egestas.
-          Cras cum vitae blandit massa. faucibus sollicitudin. Feugiat turpis velit fermentum metus.
-          Ipsum ultrices quam egestas turpis in. Sapien nulla magnis ornare nulla. Consectetur
-          blandit pellentesque tortor sagittis enim suspendisse. Varius vitae ullamcorper mus
-          ultricies in a lorem id egestas. Cras cum vitae blandit massa.faucibus sollicitudin.
-          Feugiat turpis velit fermentum metus. Ipsum ultrices quam egestas turpis in. Sapien nulla
-          magnis ornare nulla. Consectetur blandit pellentesque tortor sagittis enim suspendisse.
-          Varius vitae ullamcorper mus ultricies in a lorem id egestas. Cras cum vitae blandit
-          massa. faucibus sollicitudin. Feugiat turpis velit fermentum metus. Ipsum ultrices quam
-          egestas turpis in. Sapien nulla magnis ornare nulla. Consectetur blandit pellentesque
-          tortor sagittis enim suspendisse. Varius vitae ullamcorper mus ultricies in a lorem id
-          egestas. Cras cum vitae blandit massa.
+The Sliit Media Unit also creates digital media, including videos and animations. They use their skills and expertise to create engaging content that promotes the university's activities, achievements, and events. This content is used for promotional materials, social media, and other marketing campaigns.
         </p>
         <img id="backgroundLineImage" className="px-0" src={communityLine} alt="community image" />
       </div>
