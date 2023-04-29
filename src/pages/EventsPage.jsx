@@ -1,8 +1,9 @@
-import HeroSection from '../components/client/eventsPage/HeroSection'
-import manPlaysGuitarImg from '../assets/images/EventsPage/manPlaysGuitar.svg'
-<<<<<<< HEAD
-import UpcomingEvents from '../components/client/common/upcomingEvents/UpcomingEvents'
-import LatestNotice from '../components/client/landing/latestNotice/LatestNotice'
+import HeroSection from "../components/client/eventsPage/HeroSection"
+import manPlaysGuitarImg from "../assets/images/EventsPage/manPlaysGuitar.svg"
+import MainEvents from "../components/client/eventsPage/MainEvent/MainEvents.jsx"
+import LatestNotice from "../components/client/landing/latestNotice/LatestNotice"
+import mainEvents from "../components/client/eventsPage/MainEvent/mainEvents.json"
+import UpcomingEvents from "../components/client/eventsPage/UpComingEvent/UpcomingEvents.jsx"
 
 function EventsPage() {
     const lorem =
@@ -19,27 +20,9 @@ function EventsPage() {
                 title="What are events"
             />
       <LatestNotice />
-      <UpcomingEvents />
-=======
-import Events from '../components/client/common/EventsComponent/Events'
-import LatestNotice from '../components/client/landing/latestNotice/LatestNotice'
-import mainEvents from '../components/client/common/EventsComponent/mainEvents.json'
-
-const EventsPage = () => {
-  const lorem =
-    'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
-
-  return (
-    <div>
-      <HeroSection
-        description={lorem}
-        imgAltText={'Man plays guitar image'}
-        imgSrc={manPlaysGuitarImg}
-        title={'What are events'}
-      />
-      <LatestNotice />
       <Events eventData={mainEvents} mainTitle={'MAIN EVENTS'} />
->>>>>>> e2df22e2781f70cee9b785df717c4f3f4731725d
+      <MainEvents eventData={mainEvents} mainTitle={"MAIN EVENTS"} />
+      <UpcomingEvents />
     </div>
   )
 }
