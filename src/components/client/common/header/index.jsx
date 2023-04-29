@@ -1,7 +1,3 @@
-import './header.css'
-import React from 'react'
-import { NavLink } from 'react-router-dom'
-import logo from '../../../../assets/logo/FCSCMedia.webp'
 
 export default function Header() {
   return (
@@ -22,8 +18,13 @@ export default function Header() {
             data-bs-target="#navbarNavDropdown"
             aria-controls="navbarNavDropdown"
             aria-expanded="false"
+<<<<<<< .mine
             aria-label="Toggle navigation">
             <span className="navbar-toggler-icon" />
+=======
+            aria-label="Toggle navigation">
+            <span className="navbar-toggler-icon"></span>
+>>>>>>> .theirs
           </button>
           <div className="navlinkCont collapse navbar-collapse" id="navbarNavDropdown">
             <ul className="navbar-nav nav-pills gap-2">

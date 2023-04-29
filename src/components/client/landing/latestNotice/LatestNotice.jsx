@@ -66,44 +66,53 @@ function LatestNotice() {
   }, [images])
 
   return (
-    <div className="latestNotices">
-      <div className="slideshow-container">
-        <h2>LATEST NOTICES </h2>
-      </div>
-      <div className="carousel">
-        <div className="carousel_track-container">
-          <ul className="carousel__track">
-            {images.length > 0 ? (
-              images.map((image, index) => (
-                <li key={index} className="carousel_slide current-slide">
-                  <img
-                    className="carousel-images"
-                    src={image}
-                    alt="notice"
-                    onError={(e) => {
-                      e.target.onerror = null
-                      e.target.src = require('../../../../assets/images/notice/error.webp')
-                    }}
-                  />
-                </li>
-              ))
-            ) : (
-              <li className="carousel_slide current-slide">
-                <div className="carousel-blank-slide">Latest Notices</div>
-              </li>
-            )}
-          </ul>
-        </div>
-        {images.length > 0 && (
-          <div className="carousel__nav">
-            {images.map((_, index) => (
-              <button
-                key={index}
-                className={index === 0 ? 'carousel_indicator current-slide' : 'carousel_indicator'}
-              ></button>
-            ))}
+    <div className="container-fluid px-2 pt-4 pb-4 mx-auto">
+      <div className="row m-0">
+        <div className="latestNotices">
+          <div className="slideshow-container">
+            <h2>LATEST NOTICES </h2>
           </div>
-        )}
+        </div>
+      </div>
+      <div className="row m-0">
+        <div className="carousel">
+          <div className="carousel_track-container">
+            <ul className="carousel__track">
+              {images.length > 0 ? (
+                images.map((image, index) => (
+                  <li key={index} className="carousel_slide current-slide">
+                    <img
+                      className="carousel-images"
+                      src={image}
+                      alt="notice"
+                      onError={(e) => {
+                        e.target.onerror = null
+                        e.target.src = require('../../../../assets/images/notice/error.webp')
+                      }}
+                    />
+                  </li>
+                ))
+              ) : (
+                <li className="carousel_slide current-slide">
+                  <div className="carousel-blank-slide">Latest Notices</div>
+                </li>
+              )}
+            </ul>
+          </div>
+          <div className="row">
+            {images.length > 0 && (
+              <div className="carousel__nav">
+                {images.map((_, index) => (
+                  <button
+                    key={index}
+                    className={
+                      index === 0 ? 'carousel_indicator current-slide' : 'carousel_indicator'
+                    }></button>
+                ))}
+              </div>
+            )}
+          </div>
+        </div>
       </div>
     </div>
   )
