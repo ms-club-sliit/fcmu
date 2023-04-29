@@ -30,6 +30,8 @@ function CommunityPage(props) {
             At the SLIIT Faculty of Computing Media Unit, we believe that diversity and collaboration are key to innovation and creativity. We are committed to fostering an inclusive and supportive environment where every voice is heard and respected. Our team of experienced professionals is dedicated to providing students with the skills and resources they need to succeed in a rapidly evolving digital landscape.
             So what are you waiting for? If you're a young and talented media enthusiast who is passionate about creating and delivering engaging content, we invite you to join us at the SLIIT Faculty of Computing Media Unit. Your moment to shine is now!
         </p>
+
+        
         <img id="backgroundLineImage" className="px-0" src={communityLine} alt="community image" />
       </div>
     </div>
