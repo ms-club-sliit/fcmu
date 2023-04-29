@@ -13,20 +13,15 @@ function WhoWeAreSection() {
       <div className="row d-flex align-items-center spacer-bottom">
         <div className="col-12 col-md-12 col-lg-6">
           <p className="para-dark-blue">
-            <span className="firstcharacter">L</span>
-            orem ipsum dolor sit amet consectetur adipisicing elit. Sapiente ullam odio ab modi.
-            Alias inventore quisquam placeat officia laborum, ad asperiores delectus impedit quas?
-            Aliquam praesentium corporis dignissimos accusantium sunt?
+            <span className="firstcharacter">F</span>
+            aculty of Computing Media Unit of Sri Lanka Institute of information and Technology, dedicated to providing high-quality media services to our students, faculty, and staff.
+            Our team is made up of experienced professionals who are passionate about creating and delivering engaging and informative content. From producing videos and podcasts to designing graphics and websites, we work hard to ensure that the University's voice is heard loud and clear.
+            At the heart of our mission is the belief that media plays a vital role in shaping the narrative of our institution. By telling the stories of our students, faculty, and alumni, we can inspire and inform future generations.
+
           </p>
           <p className="para-dark-blue">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente ullam odio ab modi.
-            Alias inventore quisquam placeat officia laborum, ad asperiores delectus impedit quas?
-            Aliquam praesentium corporis dignissimos accusantium sunt?
-          </p>
-          <p className="para-dark-blue">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente ullam odio ab modi.
-            Alias inventore quisquam placeat officia laborum, ad asperiores delectus impedit quas?
-            Aliquam praesentium corporis dignissimos accusantium sunt?
+
+            We are proud to be part of a University that values creativity, innovation, and diversity. Our team reflects this commitment by fostering an inclusive and collaborative work environment where everyone's voice is heard and respected.
           </p>
         </div>
         <div className="col-12 col-md-12 col-lg-6 d-flex justify-content-end">
@@ -34,20 +29,10 @@ function WhoWeAreSection() {
         </div>
       </div>
 
-      <br />
-
       <div className="row spacer-bottom">
         <div className="col">
           <p className="para-dark-blue">
-            Nibh in posuere donec sed quis ac sollicitudin lacus consectetur. Pellentesque quam
-            lacus rhoncus commodo ornare urna id auctor. Ultricies suspendisse egestas tortor cursus
-            at quis. Dictum ipsum quam arcu pretium vitae viverra. Placerat porta enim montes nunc
-            turpis leo duis eu vitae. Elementum enim nulla malesuada quam hac aliquam. Nunc est quis
-            dui mattis nunc. Nulla eu felis scelerisque id at facilisis. Scelerisque diam faucibus
-            nibh faucibus sollicitudin. Feugiat turpis velit fermentum metus. Ipsum ultrices quam
-            egestas turpis in. Sapien nulla magnis ornare nulla. Consectetur blandit pellentesque
-            tortor sagittis enim suspendisse. Varius vitae ullamcorper mus ultricies in a lorem id
-            egestas. Cras cum vitae blandit massa.
+            Whether you're looking for help with a project or want to learn more about our services, we invite you to explore our website and get in touch with us. We are excited to work with you and help you bring your ideas to life.
           </p>
           <p className="para-dark-blue">
             Vitae id egestas condimentum hac eget dictum bibendum elementum. Ornare arcu

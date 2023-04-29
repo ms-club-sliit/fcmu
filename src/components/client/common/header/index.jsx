@@ -50,7 +50,7 @@ export default function Header() {
               </li>
               <li className="nav-item">
                 <NavLink to="/about" className="nav-link" activeClassName="active">
-                  About
+                  About us
                 </NavLink>
               </li>
               <li className="nav-item">
