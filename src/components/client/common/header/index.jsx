@@ -1,7 +1,7 @@
-import "./header.css"
-import logo from "../../../../assets/logo/FCSCMedia.webp"
-import React from "react"
-import { NavLink } from "react-router-dom"
+import './header.css'
+import React from 'react'
+import { NavLink } from 'react-router-dom'
+import logo from '../../../../assets/logo/FCSCMedia.webp'
 
 export default function Header() {
   return (
@@ -22,19 +22,13 @@ export default function Header() {
             data-bs-target="#navbarNavDropdown"
             aria-controls="navbarNavDropdown"
             aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span className="navbar-toggler-icon"></span>
+            aria-label="Toggle navigation">
+            <span className="navbar-toggler-icon" />
           </button>
           <div className="navlinkCont collapse navbar-collapse" id="navbarNavDropdown">
             <ul className="navbar-nav nav-pills gap-2">
               <li className="nav-item">
-                <NavLink
-                  to="/"
-                  className="nav-link"
-                  aria-current="page"
-                  activeClassName="active"
-                >
+                <NavLink to="/" className="nav-link" aria-current="page" activeClassName="active">
                   Home
                 </NavLink>
               </li>
