@@ -1,0 +1,91 @@
+#board-section > .row {
+  z-index: 100;
+  position: relative;
+}
+
+.board-heading {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 32px;
+  text-transform: uppercase;
+  color: var(--darkBlue);
+  text-align: center;
+}
+
+.board-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.board-card {
+  width: fit-content;
+  padding: 20px;
+  background-color: var(--secondary-text-color);
+  box-shadow: var(--btn-box-shadow);
+  border-radius: 30px;
+  display: block;
+  margin: 30px auto;
+}
+
+.board-card > .socials-wrapper {
+  display: flex;
+  justify-content: space-around;
+  margin: 15px 0px;
+}
+
+.board-card > .socials-wrapper > .social-link > .social-icon {
+  width: 35px;
+  height: 35px;
+  background-color: var(--darkBlue);
+  font-size: 20px;
+  text-align: center;
+  color: var(--white);
+  transition: 0.5s;
+  cursor: pointer;
+  border: 2px solid var(--darkBlue);
+  padding: 6px;
+  border-radius: 50px;
+}
+
+.board-card > .socials-wrapper > .social-link > .social-icon:hover {
+  transform: scale(1.25);
+}
+
+.board-card > .board-card-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  display: block;
+  margin: 0px auto;
+  margin-bottom: 20px;
+  object-fit: cover;
+}
+
+.board-card > .board-card-name,
+.board-card > .board-card-position {
+  font-size: 20px;
+  margin: 0px;
+  text-align: center;
+}
+
+#board-year {
+  background: var(--white);
+  width: 25%;
+  box-shadow: 0px -1px 10px -2px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  padding: 10px;
+  margin: 0px 20px;
+  color: var(--darkBlue);
+  border: none;
+  font-size: 18px;
+  outline: none !important;
+}
+
+.board-patton-blue {
+  position: absolute;
+  right: 0px;
+  z-index: 50;
+}
