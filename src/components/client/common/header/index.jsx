@@ -1,7 +1,7 @@
-import './header.css'
-import logo from '../../../../assets/logo/FCSCMedia.webp'
-import React from 'react'
-import { Link } from 'react-router-dom'
+import "./header.css"
+import logo from "../../../../assets/logo/FCSCMedia.webp"
+import React from "react"
+import { NavLink } from "react-router-dom"
 
 export default function Header() {
   return (
@@ -29,33 +29,34 @@ export default function Header() {
           <div className="navlinkCont collapse navbar-collapse" id="navbarNavDropdown">
             <ul className="navbar-nav nav-pills gap-2">
               <li className="nav-item">
-                <Link
+                <NavLink
                   to="/"
-                  className="nav-link active"
+                  className="nav-link"
                   aria-current="page"
+                  activeClassName="active"
                 >
                   Home
-                </Link>
+                </NavLink>
               </li>
               <li className="nav-item">
-                <Link to="events" className="nav-link">
+                <NavLink to="events" className="nav-link" activeClassName="active">
                   Events
-                </Link>
+                </NavLink>
               </li>
               <li className="nav-item">
-                <Link to="/community" className="nav-link">
+                <NavLink to="/community" className="nav-link" activeClassName="active">
                   Community
-                </Link>
+                </NavLink>
               </li>
               <li className="nav-item">
-                <Link to="/about" className="nav-link">
+                <NavLink to="/about" className="nav-link" activeClassName="active">
                   About
-                </Link>
+                </NavLink>
               </li>
               <li className="nav-item">
-                <Link to="/contactUs" className="nav-link">
+                <NavLink to="/contactUs" className="nav-link" activeClassName="active">
                   Contact us
-                </Link>
+                </NavLink>
               </li>
             </ul>
           </div>
