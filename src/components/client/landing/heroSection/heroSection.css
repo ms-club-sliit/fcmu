@@ -1,30 +1,30 @@
 .heroSecDiv {
-  color: var(--darkBlue);
-  font-family: 'Poppins';
-  font-style: normal;
+    color: var(--darkBlue);
+    font-family: 'Poppins';
+    font-style: normal;
 }
 
 .heroSecDiv > div > h1 {
-  font-weight: 700;
+    font-weight: 700;
 }
 
 #btnJonNow {
-  background: linear-gradient(132.18deg, #fe5858 29.29%, #dd1f1f 66.83%, #c11416 100%) !important;
-  color: var(--btn-text-color);
-  width: 125px;
-  height: 40px;
-  border-radius: 13px;
-  font-weight: bold;
-  font-family: 'Poppins';
-  font-style: normal;
-  font-size: 18px;
+    background: linear-gradient(132.18deg, #FE5858 29.29%, #DD1F1F 66.83%, #C11416 100%) !important;
+    color: var(--btn-text-color);
+    width: 125px;
+    height: 40px;
+    border-radius: 13px;
+    font-weight: bold;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 18px;
 }
 
-.heroTextParagraph {
-  text-align: justify;
-  font-weight: 700;
+.heroTextParagraph{
+    text-align: justify;
+    font-weight: 700;
 }
 
-.heroImgSec {
-  height: 330px;
+.heroImgSec{
+    height: 330px;
 }

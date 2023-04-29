@@ -1,8 +1,15 @@
-import './App.css'
-import RouteComponent from './routes'
+import "./App.css"
+import Header from "./components/client/common/header/Header.jsx"
+import HeroSection from "./components/client/landing/heroSection/HeroSection.jsx"
 
 function App() {
-  return <RouteComponent />
+
+  return (
+    <div>
+      <Header />
+      <HeroSection />
+    </div>
+  )
 }
 
 export default App

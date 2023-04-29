@@ -1,7 +1,6 @@
-# SLIIT Faculty of Computing Media Unit of SLIIT - Website
-
+#  SLIIT Faculty of Computing Media Unit of SLIIT - Website 
 Your one-stop portal to all things regarding SLIIT Faculty of Computing Media Unit of SLIIT  
-Read further to know how **you** can start contributing to SLIIT Faculty of Computing Media Unit!
+Read further to know how **you** can start contributing to SLIIT Faculty of Computing Media Unit! 
 
 [Here is the figma design](https://www.figma.com/file/N6h2d6l4NLU0xgI8pS9woD/Media_Club_Web_Design?node-id=0%3A1&t=8yNGgeQvDiwx3fyl-1)
 
@@ -22,13 +21,15 @@ Read further to know how **you** can start contributing to SLIIT Faculty of Comp
 
 <!-- Add system architecture -->
 
+
+
 ## [How to contribute](#how-to)
 
 1. Fork the repo on GitHub.
 
 2. Clone the project to your own machine.
 
-`git clone https://github.com/<YOUR_USERNAME>/fcmu.git`
+```git clone https://github.com/<YOUR_USERNAME>/fcmu.git```
 
 3. Create a branch using the git checkout command.
 
@@ -36,9 +37,9 @@ Read further to know how **you** can start contributing to SLIIT Faculty of Comp
 
 4. Stage your changes and commit with a meaningful commit message.
 
-```
+``` 
 git add .
-git commit -m "<initial commit>"
+git commit -m "<initial commit>" 
 ```
 
 5. Push your work back up to your fork.
@@ -47,9 +48,9 @@ git commit -m "<initial commit>"
 
 6. Submit a Pull request so that we can review your changes. [Learn about creating a pull request.](https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request)
 
-## [I really want to contribute but where do I start?](#resources)
+## [I really want to contribute but where do I start?](#resources) 
 
-We got your back. Here are some **FREE** resources for you to strengthen your web development skills and start firing some commits
+We got your back. Here are some **FREE** resources for you to strengthen your web development skills and start firing some commits 
 
 **HTML / CSS / JS**
 
@@ -59,15 +60,18 @@ We got your back. Here are some **FREE** resources for you to strengthen your we
 - [HTML & CSS Crash Course by Scrimba](https://scrimba.com/learn/htmlcss)
 - [Learn Modern Javascript by freeCodeCamp + Scrimba](https://scrimba.com/learn/es6)
 
+
 **React.js**
 
 - [React course by freeCodeCamp](https://www.freecodecamp.org/learn/front-end-libraries/#react)
 - [Learn React by Scrimba](https://scrimba.com/learn/learnreact)
-
+  
+  
 **Redux**
 
 - [Redux getting started](https://redux.js.org/introduction/getting-started)
 - [Redux Fundamental](https://redux.js.org/tutorials/fundamentals/part-1-overview)
+
 
 ## Contributors
 
