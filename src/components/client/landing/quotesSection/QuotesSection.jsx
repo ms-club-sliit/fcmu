@@ -21,7 +21,7 @@ function QuotesSection() {
         <div>
           <Swiper modules={[Navigation, Pagination]} navigation pagination={{ clickable: true }}>
             {quotes.map((quote) => (
-              <SwiperSlide>
+              <SwiperSlide key={quote.id}>
                 <div className="quoteCard">
                   <p className="text-center quotesTextParagraph ">{quote.description}</p>
                   <p className="owner">- {quote.owner} -</p>
