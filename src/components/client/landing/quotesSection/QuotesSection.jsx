@@ -14,7 +14,7 @@ import quotes from './quotes.json'
 function QuotesSection() {
   return (
     <div className="container-fluid row px-2 pt-4 pb-4 quotesDiv">
-      <h1 className="text-center">Quotes</h1>
+      <h1 className="text-center">Our Vision and Mission</h1>
       {!quotes.length ? (
         <h3 className="text-center">No quotes available to display</h3>
       ) : (
