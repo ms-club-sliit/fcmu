@@ -18,9 +18,11 @@
 }
 
 .image {
+  width: 100%;
   height: 400px;
   background-image: url('src/assets/images/samplePost1.webp');
   background-position: center;
+  background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -33,13 +35,47 @@
   font-style: lite;
 }
 
+.swiper-pagination {
+  background: transparent;
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+  position: static;
+}
+
+.swiper-pagination-bullet {
+  border: none;
+  border-radius: 50%;
+  width: 2.5vw;
+  height: 2.5vw;
+  margin: 1vw 0.6vw;
+  background: var(--lightBlue);
+  opacity: 100;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.contentDiv {
+  margin-top: 6rem;
+}
+
+.swiper-pagination-bullet-active {
+  background: var(--darkBlue);
+}
+
 @media only screen and (min-width: 768px) {
   .image {
-    height: 600px;
+    height: 700px;
+  }
+  .contentDiv {
+    margin-top: 0;
   }
 }
 @media only screen and (min-width: 992px) {
   .image {
     height: 506px;
+  }
+  .contentDiv {
+    margin-top: 0;
   }
 }
