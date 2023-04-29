@@ -1,18 +1,18 @@
-import React from 'react'
+import React from "react"
 // import Swiper core and required modules
-import { Navigation, Pagination } from 'swiper'
-import { Swiper, SwiperSlide } from 'swiper/react'
-import { Link } from 'react-router-dom'
+import { Navigation, Pagination } from "swiper"
+import { Swiper, SwiperSlide } from "swiper/react"
+import { Link } from "react-router-dom"
 
 // Import Swiper styles
-import 'swiper/css'
-import 'swiper/css/navigation'
-import 'swiper/css/pagination'
-import 'swiper/css/scrollbar'
+import "swiper/css"
+import "swiper/css/navigation"
+import "swiper/css/pagination"
+import "swiper/css/scrollbar"
 
-import './Events.css'
+import "./MainEvents.css"
 
-function Events({ eventData, mainTitle }) {
+function MainEvents({ eventData, mainTitle }) {
   // let data = require('./events.json')
   return (
     <div className="container-fluid my-5">
@@ -65,4 +65,4 @@ function Events({ eventData, mainTitle }) {
   )
 }
 
-export default Events
+export default MainEvents

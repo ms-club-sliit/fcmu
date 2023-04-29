@@ -16,6 +16,7 @@ function ContactUsForm() {
         (result) => {
           console.log(result.text)
           toastNotification("Succesfully sent", "success")
+          e.target.reset()
         },
         (error) => {
           console.log(error.text)
