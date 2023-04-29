@@ -1,9 +1,11 @@
-import HeroSection from "../components/client/eventsPage/HeroSection"
-import manPlaysGuitarImg from "../assets/images/EventsPage/manPlaysGuitar.svg"
-import MainEvents from "../components/client/eventsPage/MainEvent/MainEvents.jsx"
-import LatestNotice from "../components/client/landing/latestNotice/LatestNotice"
-import mainEvents from "../components/client/eventsPage/MainEvent/mainEvents.json"
-import UpcomingEvents from "../components/client/eventsPage/UpComingEvent/UpcomingEvents.jsx"
+import HeroSection from '../components/client/eventsPage/HeroSection'
+import manPlaysGuitarImg from '../assets/images/EventsPage/manPlaysGuitar.svg'
+import MainEvents from '../components/client/eventsPage/MainEvent/MainEvents.jsx'
+import LatestNotice from '../components/client/landing/latestNotice/LatestNotice'
+import mainEvents from '../components/client/eventsPage/MainEvent/mainEvents.json'
+import UpcomingEvents from '../components/client/eventsPage/UpComingEvent/UpcomingEvents.jsx'
+import upcomingEvents from '../components/client/eventsPage/UpComingEvent/events.json'
+
 
 function EventsPage() {
     const lorem =
@@ -20,8 +22,8 @@ function EventsPage() {
                 title="What are events"
             />
       <LatestNotice />
-      <Events eventData={mainEvents} mainTitle={'MAIN EVENTS'} />
-      <MainEvents eventData={mainEvents} mainTitle={"MAIN EVENTS"} />
+      <MainEvents eventData={mainEvents} mainTitle={'MAIN EVENTS'} />
+      <UpcomingEvents eventData={upcomingEvents} mainTitle={'UPCOMING EVENTS'} />
       <UpcomingEvents />
     </div>
   )

@@ -1,51 +1,43 @@
 #upcomingDiv {
-    margin-top: 10px;
+  margin-top: 10px;
 }
 
 .b-full {
-    height: 512px;
+  height: 512px;
 }
 
 .b-full {
-    height: auto;
+  height: auto;
 }
 
 .text-color {
-    color: var(--darkBlue);
-    font-weight: 800;
+  color: var(--darkBlue);
+  font-weight: 800;
 }
 
 .shadow {
-    box-shadow: 10px 10px 8px #888888;
-    border-radius: 20px;
-    font-family: 'Roboto';
-    font-style: Bold;
+  box-shadow: 10px 10px 8px #888888;
+  border-radius: 20px;
+  font-family: 'Roboto';
+  font-style: Bold;
 }
 
 .image {
-    height: 400px;
-    background-image: url('src/assets/images/samplePost1.webp');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    border-radius: 20px;
+  width: 100%;
+  border-radius: 20px;
 }
 
 .text-dec {
-    text-decoration: none;
-    font-family: 'Roboto';
-    font-style: lite;
+  text-decoration: none;
+  font-family: 'Roboto';
+  font-style: lite;
 }
 
 @media only screen and (min-width: 768px) {
-    .image {
-        height: 600px;
-    }
 }
 
 @media only screen and (min-width: 992px) {
-    .image {
-        height: 506px;
-    }
+  .p-lg-5 {
+    padding: 3rem !important;
+  }
 }
