@@ -69,3 +69,11 @@ img.pw-img.ms-3 {
 #subscribe-input {
     border-radius: 10px !important;
 }
+
+@media screen and (max-width: 991px) {
+    .quick-link-area {
+        margin-top: 11px;
+    }
+}
+
+
