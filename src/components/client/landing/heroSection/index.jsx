@@ -8,7 +8,7 @@ function HeroSection() {
   return (
     <div className="container-fluid row px-2 pt-4 pb-4 m-0 heroSecDiv">
       {/* <img src={heroSecBackground} alt="" height={350} className="heroSecBackground"/> */}
-      <div className="col-12 col-sm-6 col-md-6 col-lg-6">
+      <div className="col-12 col-sm-6 col-md-6 col-lg-6 mt-3">
         <h1>SLIIT </h1>
         <h1>Faculty of Computing</h1>
         <h1>Media Unit</h1>

@@ -1,46 +1,51 @@
 header {
-  color: var(--darkBlue);
-  font-weight: bold;
+    color: var(--darkBlue);
+    font-weight: bold;
+}
+
+.nav-pills > .nav-item > .nav-link {
+    color: var(--darkBlue);
+    font-weight: bold !important;
 }
 
 .active {
-  background-color: var(--secondary-text-color) !important;
-  color: var(--lightBlue) !important;
-  border-radius: 10px !important;
-  box-shadow: var(--btn-box-shadow) !important;
-  font-weight: bold;
+    background-color: var(--secondary-text-color) !important;
+    color: var(--lightBlue) !important;
+    border-radius: 10px !important;
+    box-shadow: var(--btn-box-shadow) !important;
+    font-weight: bold;
 }
 
 .logoDiv {
-  position: absolute;
-  width: 140px;
-  height: 71px;
-  top: 0;
-  left: 0;
-  background-color: var(--secondary-text-color);
-  box-shadow: var(--btn-box-shadow);
-  border-radius: 0 0 30px 0;
+    position: absolute;
+    width: 140px;
+    height: 71px;
+    top: 0;
+    left: 0;
+    background-color: var(--secondary-text-color);
+    box-shadow: var(--btn-box-shadow);
+    border-radius: 0 0 30px 0;
 }
 
 .navBarCont {
-  padding-left: 120px;
-  padding-right: 25px;
-  padding-top: 20px;
+    padding-left: 120px;
+    padding-right: 25px;
+    padding-top: 20px;
 }
 
 .navlinkCont {
-  flex-direction: row-reverse;
+    flex-direction: row-reverse;
 }
 
 @media screen and (max-width: 991px) {
-  .navBarCont {
-    padding-left: 0;
-    padding-right: 0;
-    padding-top: 0;
-    text-align: center;
-  }
+    .navBarCont {
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 0;
+        text-align: center;
+    }
 
-  .navlinkCont {
-    margin-top: 1rem;
-  }
+    .navlinkCont {
+        margin-top: 1rem;
+    }
 }
