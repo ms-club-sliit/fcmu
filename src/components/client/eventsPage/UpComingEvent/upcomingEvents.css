@@ -1,11 +1,6 @@
-#upcomingDiv {
-  margin-top: 10px;
-}
-
 .b-full {
   height: 512px;
 }
-
 .b-full {
   height: auto;
 }
@@ -18,7 +13,7 @@
 .shadow {
   box-shadow: 10px 10px 8px #888888;
   border-radius: 20px;
-  font-family: 'Roboto';
+  font-family: 'poppins';
   font-style: Bold;
 }
 
@@ -29,13 +24,43 @@
 
 .text-dec {
   text-decoration: none;
-  font-family: 'Roboto';
+  font-family: 'poppins';
   font-style: lite;
+  font-weight: 500;
 }
 
+.swiper-pagination {
+  background: transparent;
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+  position: static;
+}
+
+.swiper-pagination-bullet {
+  border: none;
+  border-radius: 50%;
+  width: 2.5vw;
+  height: 2.5vw;
+  margin: 1vw 0.6vw;
+  background: var(--lightBlue);
+  opacity: 100;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.swiper-pagination-bullet-active {
+  background: var(--darkBlue);
+}
+
+#eventsMainTitle {
+  font-weight: 600 !important;
+}
+.fontWeight600 {
+  font-weight: 600;
+}
 @media only screen and (min-width: 768px) {
 }
-
 @media only screen and (min-width: 992px) {
   .p-lg-5 {
     padding: 3rem !important;
