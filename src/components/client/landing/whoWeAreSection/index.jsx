@@ -17,8 +17,7 @@ function WhoWeAreSection({ description, findMoreUrl, imgAltText, imgSrc }) {
             onClick={(e) => {
               e.preventDefault()
               window.location.href = findMoreUrl
-            }}
-          >
+            }}>
             Find More
           </button>
         </div>

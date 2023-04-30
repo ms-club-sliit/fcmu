@@ -1,6 +1,6 @@
 import './styles.css'
 
-const HeroSection = ({ description, imgAltText, imgSrc, title }) => {
+function HeroSection({ description, imgAltText, imgSrc, title }) {
   return (
     <div>
       <div id="events-hero-section" className="container-fluid row px-2 pt-4 m-0">

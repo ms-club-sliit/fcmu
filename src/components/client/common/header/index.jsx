@@ -1,7 +1,9 @@
+
 import './header.css'
 import logo from '../../../../assets/logo/FCSCMedia.webp'
 import React from 'react'
 import { NavLink } from 'react-router-dom'
+
 
 export default function Header() {
   return (
@@ -24,6 +26,7 @@ export default function Header() {
             aria-expanded="false"
             aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
+
           </button>
           <div className="navlinkCont collapse navbar-collapse" id="navbarNavDropdown">
             <ul className="navbar-nav nav-pills gap-2">
