@@ -5,13 +5,9 @@ import { Swiper, SwiperSlide } from 'swiper/react'
 import { Link } from 'react-router-dom'
 
 // Import Swiper styles
-// eslint-disable-next-line import/no-unresolved
 import 'swiper/css'
-// eslint-disable-next-line import/no-unresolved
 import 'swiper/css/navigation'
-// eslint-disable-next-line import/no-unresolved
 import 'swiper/css/pagination'
-// eslint-disable-next-line import/no-unresolved
 import 'swiper/css/scrollbar'
 
 import './Events.css'

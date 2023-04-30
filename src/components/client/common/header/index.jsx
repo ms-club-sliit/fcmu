@@ -1,9 +1,7 @@
-
 import './header.css'
 import logo from '../../../../assets/logo/FCSCMedia.webp'
 import React from 'react'
 import { NavLink } from 'react-router-dom'
-
 
 export default function Header() {
   return (
