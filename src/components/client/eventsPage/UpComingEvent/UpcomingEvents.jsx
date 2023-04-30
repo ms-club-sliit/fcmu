@@ -23,7 +23,7 @@ function UpcomingEvents({ eventData, mainTitle }) {
       </div>
       <div className="shadow p-5 px-2 pt-4 pb-4 mx-2">
         <Swiper modules={[Navigation, Pagination]} navigation pagination={{ clickable: true }}>
-          {eventData.data.map((dynamicData) => (
+          {eventData.map((dynamicData) => (
             <SwiperSlide key={dynamicData.id}>
               <div className="b-full">
                 <div className="row">
