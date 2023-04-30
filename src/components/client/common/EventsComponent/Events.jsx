@@ -23,12 +23,12 @@ function MainEvents({ eventData, mainTitle }) {
       </div>
       <div className="shadow p-5 px-2 pt-4 pb-4 mx-2">
         <Swiper modules={[Navigation, Pagination]} navigation pagination={{ clickable: true }}>
-          {eventData.data.map((dynamicData) => (
+          {eventData.map((dynamicData) => (
             <SwiperSlide key={dynamicData.id}>
               <div className="b-full">
                 <div className="row">
                   <div className="col-lg-5 p-4 p-lg-5">
-                    <img className="image h-full " src={dynamicData.imgSrc} />
+                    <img className="image h-full " src={dynamicData.imgSrc} alt="events img" />
                   </div>
                   <div className="col-lg-7 text-color align-self-center contentDiv">
                     <div className="px-4 pt-5 py-lg-0 px-lg-5">
