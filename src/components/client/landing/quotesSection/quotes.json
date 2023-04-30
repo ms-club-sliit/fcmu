@@ -1,17 +1,12 @@
 [
   {
     "id": "1",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nisi diam vitae, cursus ac velit bibendum tristique. Vitae lacinia proin urna, in pretium dui. Suspendisse proin etiam senectus gravida suscipit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nisi diam vitae, cursus ac velit bibendum tristique. Vitae lacinia proin urna, in pretium dui. Suspendisse proin etiam senectus gravida suscipit.",
-    "owner": "John Doe"
+    "description": "Our vision is to be a leading media unit in the region, recognized for our innovative and high-quality content creation and distribution. We aspire to be a hub of creativity and collaboration, where students, faculty, and staff can come together to share",
+    "owner": "Our Vision"
   },
   {
     "id": "2",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nisi diam vitae, cursus ac velit bibendum tristique. Vitae lacinia proin urna, in pretium dui. Suspendisse proin etiam senectus gravida suscipit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nisi diam vitae, cursus ac velit bibendum tristique. Vitae lacinia proin urna, in pretium dui. Suspendisse proin etiam senectus gravida suscipit.",
-    "owner": "John Doe 2"
-  },
-  {
-    "id": "3",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nisi diam vitae, cursus ac velit bibendum tristique. Vitae lacinia proin urna, in pretium dui. Suspendisse proin etiam senectus gravida suscipit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nisi diam vitae, cursus ac velit bibendum tristique. Vitae lacinia proin urna, in pretium dui. Suspendisse proin etiam senectus gravida suscipit.",
-    "owner": "John Doe 3"
+    "description": "Our mission is to provide a platform for students to learn and practice media production skills, and to create and distribute high-quality media content that is relevant to the community. We aim to provide a space for students to explore their creativity and to develop their skills in media production and distribution.",
+    "owner": "Our Mission"
   }
 ]

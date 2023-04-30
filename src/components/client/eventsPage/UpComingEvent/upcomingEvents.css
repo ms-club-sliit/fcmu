@@ -1,0 +1,43 @@
+#upcomingDiv {
+  margin-top: 10px;
+}
+
+.b-full {
+  height: 512px;
+}
+
+.b-full {
+  height: auto;
+}
+
+.text-color {
+  color: var(--darkBlue);
+  font-weight: 800;
+}
+
+.shadow {
+  box-shadow: 10px 10px 8px #888888;
+  border-radius: 20px;
+  font-family: 'Roboto';
+  font-style: Bold;
+}
+
+.image {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.text-dec {
+  text-decoration: none;
+  font-family: 'Roboto';
+  font-style: lite;
+}
+
+@media only screen and (min-width: 768px) {
+}
+
+@media only screen and (min-width: 992px) {
+  .p-lg-5 {
+    padding: 3rem !important;
+  }
+}

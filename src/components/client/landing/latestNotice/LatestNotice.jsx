@@ -1,10 +1,10 @@
-import React, { useEffect } from 'react'
-import './latestNotice.css'
+import React, { useEffect } from "react"
+import "./latestNotice.css"
 
-import notice1 from './../../../../assets/images/notice/notice1.webp'
-import notice2 from './../../../../assets/images/notice/notice2.webp'
-import notice3 from './../../../../assets/images/notice/notice3.webp'
-import notice4 from './../../../../assets/images/notice/notice4.webp'
+import notice1 from "./../../../../assets/images/notice/notice1.webp"
+import notice2 from "./../../../../assets/images/notice/notice2.webp"
+import notice3 from "./../../../../assets/images/notice/notice3.webp"
+import notice4 from "./../../../../assets/images/notice/notice4.webp"
 
 function LatestNotice() {
   const images = [notice1, notice2, notice3, notice4]
@@ -106,8 +106,9 @@ function LatestNotice() {
                   <button
                     key={index}
                     className={
-                      index === 0 ? 'carousel_indicator current-slide' : 'carousel_indicator'
-                    }></button>
+                      index === 0 ? "carousel_indicator current-slide" : "carousel_indicator"
+                    }
+                  ></button>
                 ))}
               </div>
             )}

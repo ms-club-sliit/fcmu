@@ -1,7 +1,7 @@
-import { useState } from 'react'
-import boardMembers from './boardMembers.json'
-import pattonBlue from '../../../../assets/images/AboutPage/patton.png'
-import './styles.css'
+import { useState } from "react"
+import boardMembers from "./boardMembers.json"
+import pattonBlue from "../../../../assets/images/AboutPage/patton.png"
+import "./styles.css"
 
 function BoardSection() {
   // By default use 2022 board. Json index [1]

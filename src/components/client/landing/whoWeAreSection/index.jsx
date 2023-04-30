@@ -1,5 +1,5 @@
-import React from 'react'
-import './whoWeAreSection.css'
+import React from "react"
+import "./whoWeAreSection.css"
 
 function WhoWeAreSection({ description, findMoreUrl, imgAltText, imgSrc }) {
   return (

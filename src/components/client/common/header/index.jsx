@@ -24,6 +24,7 @@ export default function Header() {
             aria-expanded="false"
             aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
+
           </button>
           <div className="navlinkCont collapse navbar-collapse" id="navbarNavDropdown">
             <ul className="navbar-nav nav-pills gap-2">

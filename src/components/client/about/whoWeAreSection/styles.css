@@ -8,6 +8,7 @@
   font-weight: 700;
   font-size: 18px;
   line-height: 35px;
+  font-family: 'Poppins';
 }
 
 .firstcharacter {
@@ -15,6 +16,7 @@
 }
 
 .intro-header {
+  font-family: 'Poppins';
   font-size: 48px;
   margin-bottom: 20px;
 }
