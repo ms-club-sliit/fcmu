@@ -23,7 +23,7 @@ function LandingPage() {
       <HeroSection />
       <WhoWeAreSection
         description="Welcome to the vibrant SLIIT Faculty of Computing Media Unit community, where we celebrate and nurture your unique talents in announcing, photography, content writing, digital marketing, graphics, and all aspects of media creation and production.Our media unit is a hub of creativity, collaboration, and innovation, where students can explore their passions and develop their skills in a supportive and dynamic environment. "
-        findMoreUrl=""
+        findMoreUrl="/about"
         imgAltText="Board of officials image"
         imgSrc={BoardOfOfficialsImg}
       />
