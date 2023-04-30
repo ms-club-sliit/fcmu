@@ -1,11 +1,11 @@
-import React from "react"
-import "./footer.css"
-import mediaLogo from "../../../../assets/logo/FCSC MEDIA 1.svg"
-import msClubLogo from "../../../../assets/logo/logoMS 1.svg"
-import msClubFooterLogo from "../../../../assets/logo/logoMS 2.svg"
+import React from 'react'
+import './footer.css'
+import mediaLogo from '../../../../assets/logo/FCSC MEDIA 1.svg'
+import msClubLogo from '../../../../assets/logo/logoMS 1.svg'
+import msClubFooterLogo from '../../../../assets/logo/logoMS 2.svg'
 
-import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa"
-import { Link } from "react-router-dom"
+import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from 'react-icons/fa'
+import { Link } from 'react-router-dom'
 
 function Footer() {
   return (
@@ -51,19 +51,8 @@ function Footer() {
           <div className="col-md-4 quick-link-area">
             <h5 className="text-white fw-bold sub-head">Subscribe</h5>
             <hr className="hr-line" />
-            <p className="subscribe-p fw-normal">
-              Dont forget to subscribe our news letters,enter your e-mail here.
-            </p>
-            <div className="input-group mb-3">
-              <input
-                type="text"
-                className="form-control rounded"
-                placeholder="Email Address"
-                aria-label="Email
-                   Address"
-                aria-describedby="basic-addon2"
-                id="subscribe-input"
-              />
+            <p className="subscribe-p fw-normal">Dont forget to subscribe our news letters</p>
+            <div className="input-group mb-3 ms-3">
               <span className="input-group-text rounded" id="basic-addon2">
                 <i className="fa fa-solid fa-envelope" id="emailIconInText"></i>
               </span>
@@ -74,7 +63,7 @@ function Footer() {
         <hr className="seprator" />
         <div className="d-flex justify-content-center align-items-center">
           <p className="text-center text-white">
-            Copyright © 2023 - All Rights Reserved | Powered By MSClub
+            Copyright © 2023 - All Rights Reserved | Powered By MSClub of SLIIT
           </p>
         </div>
       </div>

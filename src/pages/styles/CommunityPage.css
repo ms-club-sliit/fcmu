@@ -1,6 +1,16 @@
-#backgroundLineImage {
+#backgroundCommunityLineImage {
   position: absolute;
-  bottom: -35vh;
+  top: 100vh !important;
   right: 1vw;
   z-index: -10;
+}
+
+@media screen and (max-width: 991px) {
+
+  #backgroundCommunityLineImage {
+    position: relative;
+    bottom: -35vh;
+    left: -8px;
+    z-index: -10;
+  }
 }

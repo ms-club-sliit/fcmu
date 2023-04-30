@@ -6,6 +6,9 @@ import WhoWeAreSection from '../components/client/landing/whoWeAreSection'
 import BoardOfOfficialsImg from '../assets/images/boardOfOfficials.webp'
 import LatestNotice from '../components/client/landing/latestNotice/LatestNotice'
 import { data as upcomingEvents } from '../components/client/common/EventsComponent/upcomingEvents'
+import communityLine from '../assets/images/community/background-line.png'
+import backgroundBlueLine from '../assets/images/backgroundLine.svg'
+import './styles/LandingPage.css'
 
 function LandingPage() {
   const content =
@@ -20,12 +23,26 @@ function LandingPage() {
       <HeroSection />
       <WhoWeAreSection
         description="Welcome to the vibrant SLIIT Faculty of Computing Media Unit community, where we celebrate and nurture your unique talents in announcing, photography, content writing, digital marketing, graphics, and all aspects of media creation and production.Our media unit is a hub of creativity, collaboration, and innovation, where students can explore their passions and develop their skills in a supportive and dynamic environment. "
-        findMoreUrl=""
+        findMoreUrl="/about"
         imgAltText="Board of officials image"
         imgSrc={BoardOfOfficialsImg}
       />
+      <img
+        id="backgroundLandingLineBlueImage"
+        className="px-0"
+        src={backgroundBlueLine}
+        alt="community image"
+        style={{ width: '100%' }}
+      />
       <LatestNotice />
       <Events eventData={upcomingEvents} mainTitle="UPCOMING EVENTS" />
+      <img
+        id="backgroundLandingLineImage"
+        className="px-0"
+        src={communityLine}
+        alt="community image"
+        style={{ width: '100%' }}
+      />
       <QuotesSection />
     </div>
   )
