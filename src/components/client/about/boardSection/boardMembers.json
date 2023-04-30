@@ -7,7 +7,7 @@
         "position": "President",
         "imgSrc": "/memberPics/AmilaPerera.jpg",
         "socials": {
-          "facebook": true,
+          "facebook": "https://www.facebook.com/amila.perera1997?mibextid=LQQJ4d",
           "instagram": true,
           "linkedin": true
         }
@@ -17,7 +17,7 @@
         "position": "Vice President",
         "imgSrc": "memberPics/AyodyaBanuka.jpg",
         "socials": {
-          "facebook": true,
+          "facebook": "https://www.facebook.com/ayodya.banuka.71?mibextid=LQQJ4d",
           "instagram": true,
           "linkedin": true,
           "twitter": true
@@ -28,7 +28,7 @@
         "position": "Secretary",
         "imgSrc": "/memberPics/DiyonYasawin.jpg",
         "socials": {
-          "facebook": true,
+          "facebook": "https://www.facebook.com/DiyonYasaswin?mibextid=LQQJ4d",
           "linkedin": true,
           "twitter": true
         }
@@ -38,7 +38,7 @@
         "position": "Treasurer",
         "imgSrc": "/memberPics/Kavindu.jpg",
         "socials": {
-          "facebook": true,
+          "facebook": "https://www.facebook.com/kavindu.desilva.7?mibextid=LQQJ4d",
           "linkedin": true,
           "twitter": true
         }
