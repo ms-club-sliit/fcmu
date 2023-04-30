@@ -1,5 +1,6 @@
-import img1 from '../../../../assets/images/EventsPage/MainEvents/mainevent1.webp'
+//import img1 from '../../../../assets/images/EventsPage/MainEvents/mainevent1.webp'
 import img2 from '../../../../assets/images/samplePost1.webp'
+import img3 from '../../../../assets/images/EventsPage/MainEvents/WhatsApp Image 2023-04-30 at 11.59.00.jpg'
 
 export const data = [
   {
@@ -7,7 +8,7 @@ export const data = [
     title: 'Wiramaya - 2022',
     subtitle: 'Organized by Faculty of Computing Student Community - Faculty of Computing - SLIIT!',
     date: '29/10/2022',
-    imgSrc: img1,
+    imgSrc: img3,
     description:
       'The focus on display was mixed with oriental, classical and modern performing arts with dancing, drama, and singing taking pride of place. It was a stunning showcase of what the gifted SLIIT students were capable of. Wiramaya 2022 was further enriched by a team of renowned artists such as Dhanith Sri, Dinesh Gamage, Yasas Medagedara, Susil Fernando, and Amuthu Band whose performances heightened the glamour and grandeur of the evening.',
     hashtags: [
