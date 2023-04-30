@@ -1,103 +1,5 @@
 [
   {
-    "year": "2023",
-    "members": [
-      {
-        "name": "Amila Perera",
-        "position": "President",
-        "imgSrc": "/memberPics/AmilaPerera.jpg",
-        "socials": {
-          "facebook": true,
-          "instagram": true,
-          "linkedin": true
-        }
-      },
-      {
-        "name": "Ayodya Banuka",
-        "position": "Vice President",
-        "imgSrc": "/memberPics/AyodyaBanuka.jpg",
-        "socials": {
-          "facebook": true,
-          "instagram": true,
-          "linkedin": true,
-          "twitter": true
-        }
-      },
-      {
-        "name": "Diyon Yasawin",
-        "position": "Secretor",
-        "imgSrc": "/memberPics/DiyonYasawin.jpg",
-        "socials": {
-          "facebook": true,
-          "linkedin": true,
-          "twitter": true
-        }
-      },
-      {
-        "name": "Amila Perera",
-        "position": "President",
-        "imgSrc": "/memberPics/AmilaPerera.jpg",
-        "socials": {
-          "facebook": true,
-          "instagram": true,
-          "linkedin": true
-        }
-      },
-      {
-        "name": "Ayodya Banuka",
-        "position": "Vice President",
-        "imgSrc": "/memberPics/AyodyaBanuka.jpg",
-        "socials": {
-          "facebook": true,
-          "instagram": true,
-          "linkedin": true,
-          "twitter": true
-        }
-      },
-      {
-        "name": "Diyon Yasawin",
-        "position": "Secretor",
-        "imgSrc": "/memberPics/DiyonYasawin.jpg",
-        "socials": {
-          "facebook": true,
-          "linkedin": true,
-          "twitter": true
-        }
-      },
-      {
-        "name": "Amila Perera",
-        "position": "President",
-        "imgSrc": "/memberPics/AmilaPerera.jpg",
-        "socials": {
-          "facebook": true,
-          "instagram": true,
-          "linkedin": true
-        }
-      },
-      {
-        "name": "Ayodya Banuka",
-        "position": "Vice President",
-        "imgSrc": "/memberPics/AyodyaBanuka.jpg",
-        "socials": {
-          "facebook": true,
-          "instagram": true,
-          "linkedin": true,
-          "twitter": true
-        }
-      },
-      {
-        "name": "Diyon Yasawin",
-        "position": "Secretor",
-        "imgSrc": "/memberPics/DiyonYasawin.jpg",
-        "socials": {
-          "facebook": true,
-          "linkedin": true,
-          "twitter": true
-        }
-      }
-    ]
-  },
-  {
     "year": "2022",
     "members": [
       {
@@ -113,7 +15,7 @@
       {
         "name": "Ayodya Banuka",
         "position": "Vice President",
-        "imgSrc": "/memberPics/AyodyaBanuka.jpg",
+        "imgSrc": "memberPics/AyodyaBanuka.jpg",
         "socials": {
           "facebook": true,
           "instagram": true,
@@ -123,8 +25,28 @@
       },
       {
         "name": "Diyon Yasawin",
-        "position": "Secretor",
+        "position": "Secretary",
         "imgSrc": "/memberPics/DiyonYasawin.jpg",
+        "socials": {
+          "facebook": true,
+          "linkedin": true,
+          "twitter": true
+        }
+      },
+      {
+        "name": "Kavindu De Silva",
+        "position": "Treasurer",
+        "imgSrc": "/memberPics/Kavindu.jpg",
+        "socials": {
+          "facebook": true,
+          "linkedin": true,
+          "twitter": true
+        }
+      },
+      {
+        "name": "Milana Sirithunga",
+        "position": "Assistant Secretary",
+        "imgSrc": "memberPics/Milana.jpg",
         "socials": {
           "facebook": true,
           "linkedin": true,
@@ -134,7 +56,60 @@
     ]
   },
   {
-    "year": "2021",
-    "members": []
+    "year": "2023",
+    "members": [
+      {
+        "name": "Hirusha Rukmal",
+        "position": "President",
+        "imgSrc": "memberPics/HirushaRukmal.jpeg",
+        "socials": {
+          "facebook": true,
+          "instagram": true,
+          "linkedin": true
+        }
+      },
+      {
+        "name": "Sujampathi Rathnayake",
+        "position": "Vice President",
+        "imgSrc": "memberPics/SujampathiRathnayaka.jpg",
+        "socials": {
+          "facebook": true,
+          "instagram": true,
+          "linkedin": true,
+          "twitter": true
+        }
+      },
+      {
+        "name": "Adithya Vibhushana",
+        "position": "Secretary",
+        "imgSrc": "memberPics/AdithyaVibhushana.jpg",
+        "socials": {
+          "facebook": true,
+          "linkedin": true,
+          "twitter": true
+        }
+      },
+      {
+        "name": "Thushan Jaliya",
+        "position": "Treasurer",
+        "imgSrc": "memberPics/ThushanJaliya.jpg",
+        "socials": {
+          "facebook": true,
+          "linkedin": true,
+          "twitter": true
+        }
+      },
+      {
+        "name": "Heshani Rajapaksha",
+        "position": "Assistant Secretary",
+        "imgSrc": "/memberPics/HeshaniRajapaksha.jpg",
+        "socials": {
+          "facebook": true,
+          "linkedin": true,
+          "twitter": true
+        }
+      }
+    ]
   }
+
 ]
