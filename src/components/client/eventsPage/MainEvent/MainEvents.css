@@ -13,7 +13,7 @@
 .shadow {
   box-shadow: 10px 10px 8px #888888;
   border-radius: 20px;
-  font-family: 'Roboto';
+  font-family: 'poppins';
   font-style: Bold;
 }
 
@@ -24,8 +24,9 @@
 
 .text-dec {
   text-decoration: none;
-  font-family: 'Roboto';
+  font-family: 'poppins';
   font-style: lite;
+  font-weight: 500;
 }
 
 .swiper-pagination {
@@ -52,6 +53,12 @@
   background: var(--darkBlue);
 }
 
+#eventsMainTitle {
+  font-weight: 600 !important;
+}
+.fontWeight600 {
+  font-weight: 600;
+}
 @media only screen and (min-width: 768px) {
 }
 @media only screen and (min-width: 992px) {
