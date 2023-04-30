@@ -18,18 +18,14 @@ function Footer() {
             <h5 className="text-white fw-bold mt-3">Follow Us</h5>
 
             <div className="d-flex mb-4">
-              <a href="https://www.facebook.com/">
+              <a href="https://web.facebook.com/sliit.fcmu">
                 <FaFacebook className="me-2 text-white social-media-icon social-links" size="27" />
               </a>
-              <a href="https://www.instagram.com/">
+              <a href="https://www.instagram.com/sliit.fcmu/?hl=en">
                 <FaInstagram className="me-2 text-white social-media-icon social-links" size="27" />
               </a>
-              <a href="https://www.linkedin.com/">
+              <a href="https://www.linkedin.com/company/sliit-fcmu/">
                 <FaLinkedin className="me-2 text-white social-media-icon social-links" size="27" />
-              </a>
-
-              <a href="https://www.linkedin.com/">
-                <FaTwitter className="me-2 text-white social-media-icon social-links" size="27" />
               </a>
             </div>
           </div>
@@ -78,10 +74,7 @@ function Footer() {
         <hr className="seprator" />
         <div className="d-flex justify-content-center align-items-center">
           <p className="text-center text-white">
-            Copyright © 2023 - All Rights Reserved | Powered By
-            <span className="ps-2">
-              <img className="pw-img ms-1" src={msClubFooterLogo} alt="logo" />
-            </span>
+            Copyright © 2023 - All Rights Reserved | Powered By MSClub
           </p>
         </div>
       </div>

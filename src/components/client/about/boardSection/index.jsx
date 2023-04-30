@@ -1,4 +1,4 @@
-import { useState } from "react"
+import {useState} from "react"
 import boardMembers from "./boardMembers.json"
 import pattonBlue from "../../../../assets/images/AboutPage/patton.png"
 import "./styles.css"
@@ -6,13 +6,16 @@ import "./styles.css"
 function BoardSection() {
   // By default use 2022 board. Json index [1]
   const [members, setMembers] = useState(boardMembers[1].members)
+  //boardYear
+  const [boardYear, setBoardYear] = useState(new Date().getFullYear())
 
   const ArrangeBoard = (event) => {
-    const year = event.target.value || 2022
+    const year = event.target.value || boardYear
 
     for (const board of boardMembers) {
       if (board.year === year) {
         setMembers(board.members)
+        setBoardYear(board.year)
       }
     }
   }
@@ -23,16 +26,13 @@ function BoardSection() {
       <div className="row">
         <div className="col">
           <div className="d-block my-5">
-            <h1 className="board-heading">Board of officials - 2022</h1>
+            <h1 className="board-heading">Board of officials - {boardYear}</h1>
           </div>
 
           <div className="d-flex justify-content-center my-5">
-            <select name="" id="board-year" onChange={ArrangeBoard}>
+            <select value={boardYear} className="form-select" name="" id="board-year" onChange={ArrangeBoard}>
               <option value="2023">2023</option>
-              <option value="2022" selected>
-                2022
-              </option>
-              <option value="2021">2021</option>
+              <option value="2022">2022</option>
             </select>
           </div>
         </div>
@@ -40,7 +40,7 @@ function BoardSection() {
 
       <div className="row">
         <div className="board-cards">
-          {members.length <= 0 ? <h2>No member details found</h2> : ''}
+          {members.length <= 0 ? <h2>No member details found</h2> : ""}
           {members.map((member) => (
             <div className="col-12 col-md-6 col-lg-4">
               <BoardCard
@@ -63,13 +63,13 @@ function BoardCard(props) {
     <div className="board-card">
       <img className="board-card-img" src={src} alt="" />
       <p className="board-card-name">{name}</p>
-      <p className="board-card-position">{position}</p>
-      <div className="socials-wrapper">
-        {socials.facebook ? <SocialFacebook profileLink="https://google.com" /> : ''}
-        {socials.instagram ? <SocialInstagram profileLink="https://google.com" /> : ''}
-        {socials.linkedin ? <SocialLinkedin profileLink="https://google.com" /> : ''}
-        {socials.twitter ? <SocialTwitter profileLink="https://google.com" /> : ''}
-      </div>
+        <p className="board-card-position">{position}</p>
+        <div className="socials-wrapper">
+            {socials.facebook ? <SocialFacebook profileLink={socials.facebook}/> : ""}
+            {socials.instagram ? <SocialInstagram profileLink={socials.instagram}/> : ""}
+            {socials.linkedin ? <SocialLinkedin profileLink={socials.linkedin}/> : ""}
+            {socials.twitter ? <SocialTwitter profileLink={socials.twitter}/> : ""}
+        </div>
     </div>
   )
 }

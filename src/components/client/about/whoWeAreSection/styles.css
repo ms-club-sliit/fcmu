@@ -3,6 +3,12 @@
   margin-top: 4rem;
 }
 
+.desc::first-letter {
+  color: black;
+  font-size: 50px;
+}
+
+
 .para-dark-blue {
   color: var(--darkBlue);
   font-weight: 700;
