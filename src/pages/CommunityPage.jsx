@@ -3,6 +3,7 @@ import HeroSection from "../components/client/community/HeroSection/index"
 import communityHero from "../assets/images/community/community-background.png"
 import communityImg from "../assets/images/community/community-image.png"
 import communityLine from "../assets/images/community/background-line.png"
+import "./styles/CommunityPage.css"
 
 function CommunityPage(props) {
   return (
@@ -44,7 +45,7 @@ function CommunityPage(props) {
           Your moment to shine is now!
         </p>
 
-        <img id="backgroundLineImage" className="px-0" src={communityLine} alt="community image" />
+        <img id="backgroundCommunityLineImage" className="px-0" src={communityLine} alt="community image" />
       </div>
     </div>
   )

@@ -1,2 +1,26 @@
-#upcomingDiv {
+#backgroundLandingLineImage {
+    position: absolute;
+    top: 263vh;
+    left: -8px;
+    z-index: -1000;
+    object-fit: cover;
+}
+
+#backgroundLandingLineBlueImage {
+    position: absolute;
+    top: 95vh;
+    right: 0;
+    z-index: -1000;
+    object-fit: cover;
+}
+
+
+@media screen and (max-width: 991px) {
+    #backgroundLandingLineImage {
+        top: 680vh;
+    }
+
+    #backgroundLandingLineBlueImage {
+        top: 450vh;
+    }
 }

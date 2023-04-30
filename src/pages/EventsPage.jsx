@@ -5,6 +5,10 @@ import LatestNotice from '../components/client/landing/latestNotice/LatestNotice
 import { data as mainEvents } from '../components/client/eventsPage/MainEvent/mainEvents'
 import UpcomingEvents from '../components/client/eventsPage/UpComingEvent/UpcomingEvents.jsx'
 import { data as upcomingEvents } from '../components/client/eventsPage/UpComingEvent/events'
+import backgroundBlueLine from "../assets/images/backgroundLine.svg"
+import communityLine from "../assets/images/community/background-line.png"
+import "./styles/EventPage.css"
+
 
 function EventsPage() {
   const lorem =
@@ -21,8 +25,12 @@ function EventsPage() {
         title="What are events"
       />
       <LatestNotice />
+      <img id="backgroundEventLineBlueImage" className="px-0" src={backgroundBlueLine} alt="community image"
+           style={{ "width": "100%" }} />
+                 <UpcomingEvents eventData={upcomingEvents} mainTitle={'UPCOMING EVENTS'} />
+      <img id="backgroundEventLineImage" className="px-0" src={communityLine} alt="community image"
+           style={{ "width": "100%" }} />
       <MainEvents eventData={mainEvents} mainTitle={'MAIN EVENTS'} />
-      <UpcomingEvents eventData={upcomingEvents} mainTitle={'UPCOMING EVENTS'} />
     </div>
   )
 }

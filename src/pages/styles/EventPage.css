@@ -1,0 +1,25 @@
+#backgroundEventLineImage {
+  position: absolute;
+  top: 310vh !important;
+  left: -8px;
+  z-index: -1000;
+  object-fit: cover;
+}
+
+#backgroundEventLineBlueImage {
+  position: absolute;
+  top: 110vh !important;
+  right: 0;
+  z-index: -1000;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 991px) {
+  #backgroundEventLineImage {
+    top: 680vh;
+  }
+
+  #backgroundEventLineBlueImage {
+    top: 450vh;
+  }
+}

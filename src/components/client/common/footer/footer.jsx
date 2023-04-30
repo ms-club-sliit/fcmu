@@ -54,16 +54,7 @@ function Footer() {
             <p className="subscribe-p fw-normal">
               Dont forget to subscribe our news letters,enter your e-mail here.
             </p>
-            <div className="input-group mb-3">
-              <input
-                type="text"
-                className="form-control rounded"
-                placeholder="Email Address"
-                aria-label="Email
-                   Address"
-                aria-describedby="basic-addon2"
-                id="subscribe-input"
-              />
+            <div className="input-group mb-3 ms-3">
               <span className="input-group-text rounded" id="basic-addon2">
                 <i className="fa fa-solid fa-envelope" id="emailIconInText"></i>
               </span>
