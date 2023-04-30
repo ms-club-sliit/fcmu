@@ -3,7 +3,7 @@ import img2 from '../../../../assets/images/samplePost1.webp'
 
 export const data = [
   {
-    id: '1',
+    id: '15',
     title: 'Wiramaya - 2022',
     subtitle: 'Organized by Faculty of Computing Student Community - Faculty of Computing - SLIIT!',
     date: '29/10/2022',
