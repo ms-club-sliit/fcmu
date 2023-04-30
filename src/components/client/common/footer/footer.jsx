@@ -78,10 +78,7 @@ function Footer() {
         <hr className="seprator" />
         <div className="d-flex justify-content-center align-items-center">
           <p className="text-center text-white">
-            Copyright © 2023 - All Rights Reserved | Powered By
-            <span className="ps-2">
-              <img className="pw-img ms-1" src={msClubFooterLogo} alt="logo" />
-            </span>
+            Copyright © 2023 - All Rights Reserved | Powered By MSClub
           </p>
         </div>
       </div>
