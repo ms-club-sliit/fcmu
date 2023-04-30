@@ -10,7 +10,7 @@ function ContactUsForm() {
   const sendEmail = (e) => {
     e.preventDefault()
 
-    emailjs.sendForm("service_i4m4c4u", "template_ble1gjf", form.current, "7u6tl6iu95lDeujnX").then(
+    emailjs.sendForm("service_5qurs4f", "template_jt84zq9", form.current, "eRRlFxuVAqopaJyAH").then(
       (result) => {
         console.log(result.text)
         toastNotification("Succesfully sent", "success")
