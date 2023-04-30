@@ -36,13 +36,6 @@ function LandingPage() {
       />
       <LatestNotice />
       <Events eventData={upcomingEvents} mainTitle="UPCOMING EVENTS" />
-      <img
-        id="backgroundLandingLineImage"
-        className="px-0"
-        src={communityLine}
-        alt="community image"
-        style={{ width: '100%' }}
-      />
       <QuotesSection />
     </div>
   )
