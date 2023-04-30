@@ -19,6 +19,13 @@ function WhoWeAreSection() {
               informative content. From producing videos and podcasts to designing graphics and
               websites, we work hard to ensure that the University's voice is heard loud and clear.
             </p>
+            <p className="para-dark-blue">
+              At the heart of our mission is the belief that media plays a vital role in shaping the
+              narrative of our institution. By telling the stories of our students, faculty, and
+              alumni, we can inspire and inform future generations. We are committed to showcasing the
+              incredible talent and diversity within our community, and highlighting the
+              groundbreaking research and initiatives that take place here.
+            </p>
           </div>
           <div className="col-12 col-md-12 col-lg-6 d-flex justify-content-end">
             <img src={illustration} alt="Illustration" className="intro-illustration" />

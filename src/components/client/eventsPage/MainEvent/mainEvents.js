@@ -1,4 +1,4 @@
-//import img1 from '../../../../assets/images/EventsPage/MainEvents/mainevent1.webp'
+import img1 from '../../../../assets/images/EventsPage/MainEvents/mainevent1.webp'
 import img2 from '../../../../assets/images/samplePost1.webp'
 import img3 from '../../../../assets/images/EventsPage/MainEvents/WhatsApp Image 2023-04-30 at 11.59.00.jpg'
 

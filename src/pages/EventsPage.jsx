@@ -9,7 +9,6 @@ import backgroundBlueLine from "../assets/images/backgroundLine.svg"
 import communityLine from "../assets/images/community/background-line.png"
 import "./styles/EventPage.css"
 
-
 function EventsPage() {
   const lorem =
     'Our media unit is a thriving community of passionate and driven individuals who are committed to creating and delivering high-quality content that inspires and informs audiences both locally and globally. We offer a range of opportunities for students to get involved in all aspects of media production, from designing graphics and websites to producing videos and podcasts.Joining our media unit is not only a chance to gain hands-on experience and build your portfolio, but also an opportunity to be part of a vibrant and dynamic community. We encourage students to share their ideas, collaborate with others, and grow their skills in a supportive and engaging environment.'
@@ -27,7 +26,7 @@ function EventsPage() {
       <LatestNotice />
       <img id="backgroundEventLineBlueImage" className="px-0" src={backgroundBlueLine} alt="community image"
            style={{ "width": "100%" }} />
-                 <UpcomingEvents eventData={upcomingEvents} mainTitle={'UPCOMING EVENTS'} />
+       <UpcomingEvents eventData={upcomingEvents} mainTitle={'UPCOMING EVENTS'} />
       <img id="backgroundEventLineImage" className="px-0" src={communityLine} alt="community image"
            style={{ "width": "100%" }} />
       <MainEvents eventData={mainEvents} mainTitle={'MAIN EVENTS'} />
