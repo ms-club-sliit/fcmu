@@ -1,15 +1,14 @@
-import React from 'react'
-import Events from '../components/client/common/EventsComponent/Events'
-import QuotesSection from '../components/client/landing/quotesSection/QuotesSection'
-import HeroSection from '../components/client/landing/heroSection'
-import WhoWeAreSection from '../components/client/landing/whoWeAreSection'
-import BoardOfOfficialsImg from '../assets/images/boardOfOfficials.webp'
-import LatestNotice from '../components/client/landing/latestNotice/LatestNotice'
+import React from "react"
+import Events from "../components/client/common/EventsComponent/Events"
+import QuotesSection from "../components/client/landing/quotesSection/QuotesSection"
+import HeroSection from "../components/client/landing/heroSection"
+import WhoWeAreSection from "../components/client/landing/whoWeAreSection"
+import BoardOfOfficialsImg from "../assets/images/boardOfOfficials.webp"
+import LatestNotice from "../components/client/landing/latestNotice/LatestNotice"
 
-import upcomingEvents from '../components/client/common/EventsComponent/upcomingEvents.json'
+import upcomingEvents from "../components/client/common/EventsComponent/upcomingEvents.json"
 
 function LandingPage() {
-  
   return (
     <div>
       <HeroSection />

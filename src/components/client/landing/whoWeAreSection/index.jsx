@@ -1,5 +1,5 @@
-import React from 'react'
-import './whoWeAreSection.css'
+import React from "react"
+import "./whoWeAreSection.css"
 
 function WhoWeAreSection({ description, findMoreUrl, imgAltText, imgSrc }) {
   return (
@@ -17,7 +17,8 @@ function WhoWeAreSection({ description, findMoreUrl, imgAltText, imgSrc }) {
             onClick={(e) => {
               e.preventDefault()
               window.location.href = findMoreUrl
-            }}>
+            }}
+          >
             Find More
           </button>
         </div>

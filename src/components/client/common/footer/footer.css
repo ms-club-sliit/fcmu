@@ -1,5 +1,10 @@
 #footer {
-    background: linear-gradient(132.18deg, #1B9FDD 12.92%, rgba(15, 115, 172, 0.95) 48.26%, #09496D 87.06%);
+    background: linear-gradient(
+            132.18deg,
+            #1b9fdd 12.92%,
+            rgba(15, 115, 172, 0.95) 48.26%,
+            #09496d 87.06%
+    );
     /* padding-top: 20px; */
     padding-bottom: 20px;
 }
@@ -7,7 +12,6 @@
 #emailIconInText {
     font-size: 25px;
 }
-
 
 .footer-link {
     text-decoration: none;
@@ -18,7 +22,6 @@
     margin-top: 40px;
     color: #fff;
 }
-
 
 .hr-line {
     border: 2px solid #fff;
@@ -75,5 +78,3 @@ img.pw-img.ms-3 {
         margin-top: 11px;
     }
 }
-
-

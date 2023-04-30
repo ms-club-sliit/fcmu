@@ -1,6 +1,6 @@
-import './styles.css'
+import "./styles.css"
 
-function HeroSection({ description,description2, imgAltText, imgSrc, title }) {
+function HeroSection({ description, description2, imgAltText, imgSrc, title }) {
   return (
     <div>
       <div id="events-hero-section" className="container-fluid row px-2 pt-4 pb-4 m-0">

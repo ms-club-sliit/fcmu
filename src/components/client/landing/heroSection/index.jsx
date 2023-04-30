@@ -1,6 +1,6 @@
-import React from 'react'
-import './heroSection.css'
-import heroSecImage from '../../../../assets/images/heroSecImg.svg'
+import React from "react"
+import "./heroSection.css"
+import heroSecImage from "../../../../assets/images/heroSecImg.svg"
 
 // import heroSecBackground from "../../../../assets/images/heroSecBackground.svg"
 
@@ -13,12 +13,12 @@ function HeroSection() {
         <h1>Faculty of Computing</h1>
         <h1>Media Unit</h1>
         <p className="text-justify heroTextParagraph">
-          The Sliit Media Unit is an essential part of the university community, providing valuable support to
-          departments and faculties. They use their skills and expertise to take high-quality photographs, creative
-          writing, and digital media to promote the university's activities, achievements, and culture. They also use
-          their communication skills to disseminate information to the campus community, creating a more engaged and
-          connected campus community.
-
+          The Sliit Media Unit is an essential part of the university community, providing valuable
+          support to departments and faculties. They use their skills and expertise to take
+          high-quality photographs, creative writing, and digital media to promote the university's
+          activities, achievements, and culture. They also use their communication skills to
+          disseminate information to the campus community, creating a more engaged and connected
+          campus community.
         </p>
         <button className="btn" id="btnJonNow">
           Join Now

@@ -1,20 +1,20 @@
-import React from 'react'
+import React from "react"
 // import Swiper core and required modules
-import { Navigation, Pagination } from 'swiper'
-import { Swiper, SwiperSlide } from 'swiper/react'
-import { Link } from 'react-router-dom'
+import { Navigation, Pagination } from "swiper"
+import { Swiper, SwiperSlide } from "swiper/react"
+import { Link } from "react-router-dom"
 
 // Import Swiper styles
 // eslint-disable-next-line import/no-unresolved
-import 'swiper/css'
+import "swiper/css"
 // eslint-disable-next-line import/no-unresolved
-import 'swiper/css/navigation'
+import "swiper/css/navigation"
 // eslint-disable-next-line import/no-unresolved
-import 'swiper/css/pagination'
+import "swiper/css/pagination"
 // eslint-disable-next-line import/no-unresolved
-import 'swiper/css/scrollbar'
+import "swiper/css/scrollbar"
 
-import './Events.css'
+import "./Events.css"
 
 function Events({ eventData, mainTitle }) {
   // let data = require('./events.json')

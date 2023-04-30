@@ -1,15 +1,15 @@
-import React from 'react'
-import './quotesSection.css'
+import React from "react"
+import "./quotesSection.css"
 
-import { Navigation, Pagination } from 'swiper'
-import { Swiper, SwiperSlide } from 'swiper/react'
+import { Navigation, Pagination } from "swiper"
+import { Swiper, SwiperSlide } from "swiper/react"
 
-import 'swiper/css'
-import 'swiper/css/navigation'
-import 'swiper/css/pagination'
-import 'swiper/css/scrollbar'
+import "swiper/css"
+import "swiper/css/navigation"
+import "swiper/css/pagination"
+import "swiper/css/scrollbar"
 
-import quotes from './quotes.json'
+import quotes from "./quotes.json"
 
 function QuotesSection() {
   return (

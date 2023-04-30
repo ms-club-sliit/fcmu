@@ -1,4 +1,4 @@
-import './styles.css'
+import "./styles.css"
 
 function HeroSection({ description, imgAltText, imgSrc, title }) {
   return (

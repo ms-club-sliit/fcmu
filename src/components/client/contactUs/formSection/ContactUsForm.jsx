@@ -10,19 +10,17 @@ function ContactUsForm() {
   const sendEmail = (e) => {
     e.preventDefault()
 
-    emailjs
-      .sendForm("service_i4m4c4u", "template_ble1gjf", form.current, "7u6tl6iu95lDeujnX")
-      .then(
-        (result) => {
-          console.log(result.text)
-          toastNotification("Succesfully sent", "success")
-          e.target.reset()
-        },
-        (error) => {
-          console.log(error.text)
-          toastNotification("Something went wrong. Please try again", "error")
-        }
-      )
+    emailjs.sendForm("service_i4m4c4u", "template_ble1gjf", form.current, "7u6tl6iu95lDeujnX").then(
+      (result) => {
+        console.log(result.text)
+        toastNotification("Succesfully sent", "success")
+        e.target.reset()
+      },
+      (error) => {
+        console.log(error.text)
+        toastNotification("Something went wrong. Please try again", "error")
+      }
+    )
   }
 
   const toastNotification = (message, status) => {
@@ -65,7 +63,8 @@ function ContactUsForm() {
         <form
           className="row mt-5 d-flex justify-content-center align-items-center"
           ref={form}
-          onSubmit={sendEmail}>
+          onSubmit={sendEmail}
+        >
           <div className="row mt-4 ">
             <div className="col">
               <input type="text" className="form-control" name="fname" placeholder="First Name" />
@@ -89,7 +88,8 @@ function ContactUsForm() {
                 name="message"
                 id="message"
                 rows="4"
-                placeholder="Message"></textarea>
+                placeholder="Message"
+              ></textarea>
             </div>
           </div>
           <div className="col-12 mt-4 d-flex justify-content-center align-items-center">

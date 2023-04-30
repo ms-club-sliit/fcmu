@@ -1,5 +1,5 @@
-import illustration from '../../../../assets/images/AboutPage/peps-looking-at-laptop.png'
-import './styles.css'
+import illustration from "../../../../assets/images/AboutPage/peps-looking-at-laptop.png"
+import "./styles.css"
 
 function WhoWeAreSection() {
   return (
@@ -37,20 +37,21 @@ function WhoWeAreSection() {
       <div className="row spacer-bottom">
         <div className="col">
           <p className="para-dark-blue">
-            We believe that media is an essential tool for education, and we strive to provide our students with the
-            skills and resources they need to succeed in a rapidly evolving digital landscape. We offer a range of
-            courses and workshops that teach students how to create and distribute high-quality media content, and we
-            also provide opportunities for students to gain hands-on experience working on real-world projects.
+            We believe that media is an essential tool for education, and we strive to provide our
+            students with the skills and resources they need to succeed in a rapidly evolving
+            digital landscape. We offer a range of courses and workshops that teach students how to
+            create and distribute high-quality media content, and we also provide opportunities for
+            students to gain hands-on experience working on real-world projects.
           </p>
           <p className="para-dark-blue">
-            Our team is proud to be part of a University that values creativity, innovation, and diversity. We are
-            committed to fostering an inclusive and collaborative work environment where everyone's voice is heard and
-            respected. We believe that diversity is key to creativity and innovation, and we strive to reflect this
-            commitment in our team and our work. Whether you're looking for help with a project or want to learn more about our services, we invite you to
-            explore our website and get in touch with us. We are excited to work with you and help you bring your ideas
-            to life. Together, we can create media that inspires, informs, and engages audiences both locally and
-            globally.
-
+            Our team is proud to be part of a University that values creativity, innovation, and
+            diversity. We are committed to fostering an inclusive and collaborative work environment
+            where everyone's voice is heard and respected. We believe that diversity is key to
+            creativity and innovation, and we strive to reflect this commitment in our team and our
+            work. Whether you're looking for help with a project or want to learn more about our
+            services, we invite you to explore our website and get in touch with us. We are excited
+            to work with you and help you bring your ideas to life. Together, we can create media
+            that inspires, informs, and engages audiences both locally and globally.
           </p>
         </div>
       </div>

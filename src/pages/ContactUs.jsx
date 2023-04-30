@@ -1,8 +1,8 @@
-import React from 'react'
-import HeroSection from '../components/client/contactUs/HeroSection'
-import contactUs from '../assets/images/ContactUsPage/contactUs.png'
+import React from "react"
+import HeroSection from "../components/client/contactUs/HeroSection"
+import contactUs from "../assets/images/ContactUsPage/contactUs.png"
 // eslint-disable-next-line import/extensions
-import ContactUsForm from '../components/client/contactUs/formSection/ContactUsForm.jsx'
+import ContactUsForm from "../components/client/contactUs/formSection/ContactUsForm.jsx"
 
 function ContactUs() {
   return (
