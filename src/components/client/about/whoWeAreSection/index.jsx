@@ -11,20 +11,13 @@ function WhoWeAreSection() {
 
         <div className="row">
           <div className="col-12 col-sm-12 col-md-6 col-lg-6 mt-5">
-            <p className="desc">
+            <p className="desc text-justify">
               The Faculty of Computing Media Unit at Sri Lanka Institute of Information Technology is
               dedicated to providing high-quality media services that enable our students, faculty,
               and staff to express their creativity and ideas in innovative ways. Our team is composed
               of experienced professionals who have a passion for creating and delivering engaging and
               informative content. From producing videos and podcasts to designing graphics and
               websites, we work hard to ensure that the University's voice is heard loud and clear.
-            </p>
-            <p className="para-dark-blue">
-              At the heart of our mission is the belief that media plays a vital role in shaping the
-              narrative of our institution. By telling the stories of our students, faculty, and
-              alumni, we can inspire and inform future generations. We are committed to showcasing the
-              incredible talent and diversity within our community, and highlighting the
-              groundbreaking research and initiatives that take place here.
             </p>
           </div>
           <div className="col-12 col-md-12 col-lg-6 d-flex justify-content-end">
@@ -34,14 +27,19 @@ function WhoWeAreSection() {
 
         <div className="row spacer-bottom pe-0">
           <div className="col pe-0">
-            <p className="para-dark-blue">
+            <p className="para-dark-blue text-justify">
+              At the heart of our mission is the belief that media plays a vital role in shaping the
+              narrative of our institution. By telling the stories of our students, faculty, and
+              alumni, we can inspire and inform future generations. We are committed to showcasing the
+              incredible talent and diversity within our community, and highlighting the
+              groundbreaking research and initiatives that take place here.
               We believe that media is an essential tool for education, and we strive to provide our
               students with the skills and resources they need to succeed in a rapidly evolving
               digital landscape. We offer a range of courses and workshops that teach students how to
               create and distribute high-quality media content, and we also provide opportunities for
               students to gain hands-on experience working on real-world projects.
             </p>
-            <p className="para-dark-blue">
+            <p className="para-dark-blue text-justify">
               Our team is proud to be part of a University that values creativity, innovation, and
               diversity. We are committed to fostering an inclusive and collaborative work environment
               where everyone's voice is heard and respected. We believe that diversity is key to

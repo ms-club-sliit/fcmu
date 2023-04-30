@@ -1,3 +1,4 @@
+import React from "react"
 import HeroSection from "../components/client/eventsPage/HeroSection"
 import manPlaysGuitarImg from "../assets/images/EventsPage/manPlaysGuitar.svg"
 import MainEvents from "../components/client/eventsPage/MainEvent/MainEvents.jsx"
@@ -5,6 +6,9 @@ import LatestNotice from "../components/client/landing/latestNotice/LatestNotice
 import mainEvents from "../components/client/eventsPage/MainEvent/mainEvents.json"
 import UpcomingEvents from "../components/client/eventsPage/UpComingEvent/UpcomingEvents.jsx"
 import upcomingEvents from "../components/client/eventsPage/UpComingEvent/events.json"
+import backgroundBlueLine from "../assets/images/backgroundLine.svg"
+import communityLine from "../assets/images/community/background-line.png"
+import "./styles/EventPage.css"
 
 
 function EventsPage() {
@@ -21,8 +25,12 @@ function EventsPage() {
         title="What are events"
       />
       <LatestNotice />
-      <MainEvents eventData={mainEvents} mainTitle={"MAIN EVENTS"} />
+      <img id="backgroundEventLineBlueImage" className="px-0" src={backgroundBlueLine} alt="community image"
+           style={{ "width": "100%" }} />
       <UpcomingEvents eventData={upcomingEvents} mainTitle={"UPCOMING EVENTS"} />
+      <img id="backgroundEventLineImage" className="px-0" src={communityLine} alt="community image"
+           style={{ "width": "100%" }} />
+      <MainEvents eventData={mainEvents} mainTitle={"MAIN EVENTS"} />
     </div>
   )
 }

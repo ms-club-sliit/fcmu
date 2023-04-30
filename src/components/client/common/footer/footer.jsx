@@ -2,9 +2,8 @@ import React from "react"
 import "./footer.css"
 import mediaLogo from "../../../../assets/logo/FCSC MEDIA 1.svg"
 import msClubLogo from "../../../../assets/logo/logoMS 1.svg"
-import msClubFooterLogo from "../../../../assets/logo/logoMS 2.svg"
 
-import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa"
+import { FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa"
 import { Link } from "react-router-dom"
 
 function Footer() {
@@ -26,10 +25,6 @@ function Footer() {
               </a>
               <a href="https://www.linkedin.com/">
                 <FaLinkedin className="me-2 text-white social-media-icon social-links" size="27" />
-              </a>
-
-              <a href="https://www.linkedin.com/">
-                <FaTwitter className="me-2 text-white social-media-icon social-links" size="27" />
               </a>
             </div>
           </div>
@@ -58,16 +53,7 @@ function Footer() {
             <p className="subscribe-p fw-normal">
               Dont forget to subscribe our news letters,enter your e-mail here.
             </p>
-            <div className="input-group mb-3">
-              <input
-                type="text"
-                className="form-control rounded"
-                placeholder="Email Address"
-                aria-label="Email
-                   Address"
-                aria-describedby="basic-addon2"
-                id="subscribe-input"
-              />
+            <div className="input-group mb-3 ms-3">
               <span className="input-group-text rounded" id="basic-addon2">
                 <i className="fa fa-solid fa-envelope" id="emailIconInText"></i>
               </span>

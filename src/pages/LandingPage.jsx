@@ -6,6 +6,9 @@ import WhoWeAreSection from "../components/client/landing/whoWeAreSection"
 import BoardOfOfficialsImg from "../assets/images/boardOfOfficials.webp"
 import LatestNotice from "../components/client/landing/latestNotice/LatestNotice"
 import upcomingEvents from "../components/client/common/EventsComponent/upcomingEvents.json"
+import communityLine from "../assets/images/community/background-line.png"
+import backgroundBlueLine from "../assets/images/backgroundLine.svg"
+import "./styles/LandingPage.css"
 
 function LandingPage() {
 
@@ -24,8 +27,12 @@ function LandingPage() {
         imgAltText="Board of officials image"
         imgSrc={BoardOfOfficialsImg}
       />
+      <img id="backgroundLandingLineBlueImage" className="px-0" src={backgroundBlueLine} alt="community image"
+           style={{ "width": "100%" }} />
       <LatestNotice />
       <Events eventData={upcomingEvents} mainTitle="UPCOMING EVENTS" />
+      <img id="backgroundLandingLineImage" className="px-0" src={communityLine} alt="community image"
+           style={{ "width": "100%" }} />
       <QuotesSection />
     </div>
   )

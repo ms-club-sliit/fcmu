@@ -3,6 +3,7 @@ import HeroSection from "../components/client/community/HeroSection/index"
 import communityHero from "../assets/images/community/community-background.png"
 import communityImg from "../assets/images/community/community-image.png"
 import communityLine from "../assets/images/community/background-line.png"
+import "./styles/CommunityPage.css"
 
 function CommunityPage(props) {
   return (
@@ -11,7 +12,7 @@ function CommunityPage(props) {
         description="The Sliit Media Unit is an essential part of the campus community, providing valuable support to various departments and faculties within the university. This group of volunteers is responsible for capturing important moments and creating content that promotes the university's activities, achievements, and events."
         imgAltText="lorem ipsum"
         imgSrc={communityHero}
-        title={{ titleOne: 'SLIIT', titleTwo: 'Faculty of Computing', titleThree: 'Media Unit' }}
+        title={{ titleOne: "SLIIT", titleTwo: "Faculty of Computing", titleThree: "Media Unit" }}
       />
       <div className="container-fluid row px-2 pb-4 m-0">
         <p>
@@ -44,7 +45,7 @@ function CommunityPage(props) {
           Your moment to shine is now!
         </p>
 
-        <img id="backgroundLineImage" className="px-0" src={communityLine} alt="community image" />
+        <img id="backgroundCommunityLineImage" className="px-0" src={communityLine} alt="community image" />
       </div>
     </div>
   )

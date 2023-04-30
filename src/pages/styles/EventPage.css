@@ -1,14 +1,14 @@
-#backgroundLandingLineImage {
+#backgroundEventLineImage {
     position: absolute;
-    top: 263vh;
+    top: 280vh !important;
     left: -8px;
     z-index: -1000;
     object-fit: cover;
 }
 
-#backgroundLandingLineBlueImage {
+#backgroundEventLineBlueImage {
     position: absolute;
-    top: 95vh;
+    top: 110vh !important;
     right: 0;
     z-index: -1000;
     object-fit: cover;
@@ -16,11 +16,11 @@
 
 
 @media screen and (max-width: 991px) {
-    #backgroundLandingLineImage {
+    #backgroundEventLineImage {
         top: 680vh;
     }
 
-    #backgroundLandingLineBlueImage {
+    #backgroundEventLineBlueImage {
         top: 450vh;
     }
 }
