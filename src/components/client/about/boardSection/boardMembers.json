@@ -1,103 +1,5 @@
 [
   {
-    "year": "2023",
-    "members": [
-      {
-        "name": "Amila Perera",
-        "position": "President",
-        "imgSrc": "/memberPics/AmilaPerera.jpg",
-        "socials": {
-          "facebook": true,
-          "instagram": true,
-          "linkedin": true
-        }
-      },
-      {
-        "name": "Ayodya Banuka",
-        "position": "Vice President",
-        "imgSrc": "/memberPics/AyodyaBanuka.jpg",
-        "socials": {
-          "facebook": true,
-          "instagram": true,
-          "linkedin": true,
-          "twitter": true
-        }
-      },
-      {
-        "name": "Diyon Yasawin",
-        "position": "Secretor",
-        "imgSrc": "/memberPics/DiyonYasawin.jpg",
-        "socials": {
-          "facebook": true,
-          "linkedin": true,
-          "twitter": true
-        }
-      },
-      {
-        "name": "Amila Perera",
-        "position": "President",
-        "imgSrc": "/memberPics/AmilaPerera.jpg",
-        "socials": {
-          "facebook": true,
-          "instagram": true,
-          "linkedin": true
-        }
-      },
-      {
-        "name": "Ayodya Banuka",
-        "position": "Vice President",
-        "imgSrc": "/memberPics/AyodyaBanuka.jpg",
-        "socials": {
-          "facebook": true,
-          "instagram": true,
-          "linkedin": true,
-          "twitter": true
-        }
-      },
-      {
-        "name": "Diyon Yasawin",
-        "position": "Secretor",
-        "imgSrc": "/memberPics/DiyonYasawin.jpg",
-        "socials": {
-          "facebook": true,
-          "linkedin": true,
-          "twitter": true
-        }
-      },
-      {
-        "name": "Amila Perera",
-        "position": "President",
-        "imgSrc": "/memberPics/AmilaPerera.jpg",
-        "socials": {
-          "facebook": true,
-          "instagram": true,
-          "linkedin": true
-        }
-      },
-      {
-        "name": "Ayodya Banuka",
-        "position": "Vice President",
-        "imgSrc": "/memberPics/AyodyaBanuka.jpg",
-        "socials": {
-          "facebook": true,
-          "instagram": true,
-          "linkedin": true,
-          "twitter": true
-        }
-      },
-      {
-        "name": "Diyon Yasawin",
-        "position": "Secretor",
-        "imgSrc": "/memberPics/DiyonYasawin.jpg",
-        "socials": {
-          "facebook": true,
-          "linkedin": true,
-          "twitter": true
-        }
-      }
-    ]
-  },
-  {
     "year": "2022",
     "members": [
       {
@@ -105,7 +7,7 @@
         "position": "President",
         "imgSrc": "/memberPics/AmilaPerera.jpg",
         "socials": {
-          "facebook": true,
+          "facebook": "https://www.facebook.com/amila.perera1997?mibextid=LQQJ4d",
           "instagram": true,
           "linkedin": true
         }
@@ -115,7 +17,7 @@
         "position": "Vice President",
         "imgSrc": "/memberPics/AyodyaBanuka.jpg",
         "socials": {
-          "facebook": true,
+          "facebook": "https://www.facebook.com/ayodya.banuka.71?mibextid=LQQJ4d",
           "instagram": true,
           "linkedin": true,
           "twitter": true
@@ -123,10 +25,30 @@
       },
       {
         "name": "Diyon Yasawin",
-        "position": "Secretor",
+        "position": "Secretary",
         "imgSrc": "/memberPics/DiyonYasawin.jpg",
         "socials": {
-          "facebook": true,
+          "facebook": "https://www.facebook.com/DiyonYasaswin?mibextid=LQQJ4d",
+          "linkedin": true,
+          "twitter": true
+        }
+      },
+      {
+        "name": "Kavindu De Silva",
+        "position": "Treasurer",
+        "imgSrc": "/memberPics/Kavindu.jpg",
+        "socials": {
+          "facebook": "https://www.facebook.com/kavindu.desilva.7?mibextid=LQQJ4d",
+          "linkedin": true,
+          "twitter": true
+        }
+      },
+      {
+        "name": "Milana Sirithunga",
+        "position": "Assistant Secretary",
+        "imgSrc": "/memberPics/Milana.jpg",
+        "socials": {
+          "facebook": "https://www.facebook.com/milana.sirithunga?mibextid=LQQJ4d",
           "linkedin": true,
           "twitter": true
         }
@@ -134,7 +56,59 @@
     ]
   },
   {
-    "year": "2021",
-    "members": []
+    "year": "2023",
+    "members": [
+      {
+        "name": "Hirusha Rukmal",
+        "position": "President",
+        "imgSrc": "/memberPics/HirushaRukmal.jpeg",
+        "socials": {
+          "facebook": "https://web.facebook.com/hirusha.rukmal.7",
+          "instagram": "https://www.instagram.com/_.hirusha._/?fbclid",
+          "linkedin": "https://www.linkedin.com/in/hirusharukmal/"
+        }
+      },
+      {
+        "name": "Sujampathi Rathnayake",
+        "position": "Vice President",
+        "imgSrc": "/memberPics/SujampathiRathnayaka.jpg",
+        "socials": {
+          "instagram": "https://www.instagram.com/sujampathi_rathnayaka/",
+          "linkedin": true,
+          "twitter": true
+        }
+      },
+      {
+        "name": "Adithya Vibhushana",
+        "position": "Secretary",
+        "imgSrc": "memberPics/AdithyaVibhushana.jpg",
+        "socials": {
+          "facebook": "https://web.facebook.com/profile.php?id=100009163038536",
+          "linkedin": "https://www.linkedin.com/in/sujampathi-rathnayaka/",
+          "twitter": true
+        }
+      },
+      {
+        "name": "Thushan Jaliya",
+        "position": "Treasurer",
+        "imgSrc": "memberPics/ThushanJaliya.jpg",
+        "socials": {
+          "facebook": "https://www.facebook.com/thushan.jaliya?mibextid=LQQJ4d",
+          "instagram": "https://instagram.com/thushan__00?igshid=YmMyMTA2M2Y=",
+          "linkedin": "https://www.linkedin.com/in/thushan-jaliya-3b1507202"
+        }
+      },
+      {
+        "name": "Heshani Rajapaksha",
+        "position": "Assistant Secretary",
+        "imgSrc": "/memberPics/HeshaniRajapaksha.jpg",
+        "socials": {
+          "facebook": "https://web.facebook.com/tharu.rajapaksha.798",
+          "linkedin": "https://www.linkedin.com/in/heshani-rajapaksha-067489215",
+          "twitter": true
+        }
+      }
+    ]
   }
+
 ]

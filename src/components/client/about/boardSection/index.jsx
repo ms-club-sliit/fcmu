@@ -1,4 +1,4 @@
-import { useState } from "react"
+import {useState} from "react"
 import boardMembers from "./boardMembers.json"
 import pattonBlue from "../../../../assets/images/AboutPage/patton.png"
 import "./styles.css"
@@ -33,7 +33,6 @@ function BoardSection() {
             <select value={boardYear} className="form-select" name="" id="board-year" onChange={ArrangeBoard}>
               <option value="2023">2023</option>
               <option value="2022">2022</option>
-              <option value="2021">2021</option>
             </select>
           </div>
         </div>
@@ -64,13 +63,13 @@ function BoardCard(props) {
     <div className="board-card">
       <img className="board-card-img" src={src} alt="" />
       <p className="board-card-name">{name}</p>
-      <p className="board-card-position">{position}</p>
-      <div className="socials-wrapper">
-        {socials.facebook ? <SocialFacebook profileLink="https://google.com" /> : ""}
-        {socials.instagram ? <SocialInstagram profileLink="https://google.com" /> : ""}
-        {socials.linkedin ? <SocialLinkedin profileLink="https://google.com" /> : ""}
-        {socials.twitter ? <SocialTwitter profileLink="https://google.com" /> : ""}
-      </div>
+        <p className="board-card-position">{position}</p>
+        <div className="socials-wrapper">
+            {socials.facebook ? <SocialFacebook profileLink={socials.facebook}/> : ""}
+            {socials.instagram ? <SocialInstagram profileLink={socials.instagram}/> : ""}
+            {socials.linkedin ? <SocialLinkedin profileLink={socials.linkedin}/> : ""}
+            {socials.twitter ? <SocialTwitter profileLink={socials.twitter}/> : ""}
+        </div>
     </div>
   )
 }

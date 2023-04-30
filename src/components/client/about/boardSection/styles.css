@@ -21,13 +21,14 @@
 }
 
 .board-card {
-    width: fit-content;
-    padding: 20px;
-    background-color: var(--secondary-text-color);
-    box-shadow: var(--btn-box-shadow);
-    border-radius: 30px;
-    display: block;
-    margin: 30px auto;
+  width: 300px;
+  height: 400px;
+  padding: 20px;
+  background-color: var(--secondary-text-color);
+  box-shadow: var(--btn-box-shadow);
+  border-radius: 30px;
+  display: block;
+  margin: 30px auto;
 }
 
 .board-card > .socials-wrapper {
