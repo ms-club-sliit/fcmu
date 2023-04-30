@@ -28,7 +28,11 @@ function UpcomingEvents({ eventData, mainTitle }) {
               <div className="b-full">
                 <div className="row">
                   <div className="col-lg-5 p-4 p-lg-5">
-                    <img className="image h-full " src={dynamicData.imgSrc} />
+                    <img
+                      className="image h-full "
+                      src={dynamicData.imgSrc}
+                      alt="upcoming events img"
+                    />
                   </div>
                   <div className="col-lg-7 text-color align-self-center contentDiv">
                     <div className="px-4 pt-5 py-lg-0 px-lg-5">
