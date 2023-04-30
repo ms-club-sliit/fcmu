@@ -1,19 +1,20 @@
 {
   "data": [
     {
-      "id": "11",
+      "id": "15",
       "title": "FRESHERS RECRUTMENT",
       "subtitle": "Calling out to all creative Volunteers",
       "date": "03/11/2022",
+      "imgSrc": "src/assets/images/samplePost1.webp",
       "description": "MERRY CHRISTMAS 2022! , Wishing you good health, happiness, peace, hope, love, and prosperity, this holiday season and in the coming New Year. May the magic of Christmas fill your heart all year long. Design by: Gimhana Deshapriya Content by: Pabodha Oshadari",
       "hashtags": [
         {
-          "id": "1000",
+          "id": "100",
           "text": "#sliit",
           "link": "https://www.google.com"
         },
         {
-          "id": "2000",
+          "id": "200",
           "text": "#sliitMedia",
           "link": "#"
         }
@@ -22,19 +23,20 @@
       "Who": "FCMU"
     },
     {
-      "id": "22",
+      "id": "25",
       "title": "2FRESHERS RECRUTMENT",
       "subtitle": "2Calling out to all creative Volunteers",
       "date": "03/11/2022",
+      "imgSrc": "src/assets/images/samplePost1.webp",
       "description": "2MERRY CHRISTMAS 2022! , Wishing you good health, happiness, peace, hope, love, and prosperity, this holiday season and in the coming New Year. May the magic of Christmas fill your heart all year long. Design by: Gimhana Deshapriya Content by: Pabodha Oshadari",
       "hashtags": [
         {
-          "id": "3000",
+          "id": "300",
           "text": "",
           "link": ""
         },
         {
-          "id": "4000",
+          "id": "400",
           "text": "",
           "link": ""
         }
