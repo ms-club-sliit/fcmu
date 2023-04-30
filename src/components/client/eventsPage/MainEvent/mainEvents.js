@@ -1,4 +1,4 @@
-import img1 from '../../../../assets/images/EventsPage/MainEvents/MainEvent1.webp'
+import img1 from '../../../../assets/images/EventsPage/MainEvents/mainevent1.webp'
 import img2 from '../../../../assets/images/samplePost1.webp'
 
 export const data = [
