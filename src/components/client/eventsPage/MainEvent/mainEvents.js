@@ -22,12 +22,12 @@ export const data = [
   },
   {
     id: '25',
-    title: '2FRESHERS RECRUTMENT',
-    subtitle: '2Calling out to all creative Volunteers',
+    title: 'FRESHERS RECRUTMENT',
+    subtitle: 'Calling out to all creative Volunteers',
     date: '03/11/2022',
     imgSrc: img2,
     description:
-      '2MERRY CHRISTMAS 2022! , Wishing you good health, happiness, peace, hope, love, and prosperity, this holiday season and in the coming New Year. May the magic of Christmas fill your heart all year long. Design by: Gimhana Deshapriya Content by: Pabodha Oshadari',
+      'MERRY CHRISTMAS 2022! , Wishing you good health, happiness, peace, hope, love, and prosperity, this holiday season and in the coming New Year. May the magic of Christmas fill your heart all year long. Design by: Gimhana Deshapriya Content by: Pabodha Oshadari',
     hashtags: [
       {
         id: '300',
