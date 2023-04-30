@@ -8,7 +8,7 @@ function BoardSection() {
   const [members, setMembers] = useState(boardMembers[1].members)
 
   const ArrangeBoard = (event) => {
-    const year = event.target.value || 2022
+    const year = event.target.value || 2023
 
     for (const board of boardMembers) {
       if (board.year === year) {
@@ -23,16 +23,15 @@ function BoardSection() {
       <div className="row">
         <div className="col">
           <div className="d-block my-5">
-            <h1 className="board-heading">Board of officials - 2022</h1>
+            <h1 className="board-heading">Board of officials</h1>
           </div>
 
           <div className="d-flex justify-content-center my-5">
             <select name="" id="board-year" onChange={ArrangeBoard}>
-              <option value="2023">2023</option>
-              <option value="2022" selected>
+              <option value="2023" selected>2023</option>
+              <option value="2022" >
                 2022
               </option>
-              <option value="2021">2021</option>
             </select>
           </div>
         </div>
