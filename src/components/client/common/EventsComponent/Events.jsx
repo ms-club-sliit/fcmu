@@ -12,7 +12,7 @@ import 'swiper/css/scrollbar'
 
 import './Events.css'
 
-function Events({ eventData, mainTitle }) {
+function MainEvents({ eventData, mainTitle }) {
   // let data = require('./events.json')
   return (
     <div className="container-fluid my-5">
@@ -27,14 +27,14 @@ function Events({ eventData, mainTitle }) {
             <SwiperSlide key={dynamicData.id}>
               <div className="b-full">
                 <div className="row">
-                  <div className="col-lg-5 ">
-                    <div className="image p-5 h-full w-full" />
+                  <div className="col-lg-5 p-4 p-lg-5">
+                    <img className="image h-full " src={dynamicData.imgSrc} />
                   </div>
                   <div className="col-lg-7 text-color align-self-center contentDiv">
-                    <div className="px-0 pt-5 py-lg-0 px-lg-5">
-                      <h2>{dynamicData.title}</h2>
-                      <h5 className="py-2">{dynamicData.subtitle}</h5>
-                      <h5 className="py-2">{dynamicData.date}</h5>
+                    <div className="px-4 pt-5 py-lg-0 px-lg-5">
+                      <h2 id="eventsMainTitle">{dynamicData.title}</h2>
+                      <h5 className="py-2 fontWeight600">{dynamicData.subtitle}</h5>
+                      <h5 className="py-2 fontWeight600">{dynamicData.date}</h5>
                       <p className="text-dec pt-3 pt-lg-5">{dynamicData.description}</p>
                       {dynamicData.hashtags &&
                         dynamicData.hashtags.map((hash) => (
@@ -65,4 +65,4 @@ function Events({ eventData, mainTitle }) {
   )
 }
 
-export default Events
+export default MainEvents
