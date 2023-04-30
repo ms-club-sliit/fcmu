@@ -3,10 +3,10 @@ import WhoWeAreSection from "../components/client/about/whoWeAreSection"
 
 function AboutPage() {
   return (
-    <>
+    <div>
       <WhoWeAreSection />
       <BoardSection />
-    </>
+    </div>
   )
 }
 
