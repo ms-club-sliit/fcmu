@@ -7,11 +7,11 @@ export default function Header() {
   return (
     <header>
       <nav className="navBarCont navbar navbar-expand-lg bg-body-tertiary">
-        <div className="navBarInnerCont container-fluid">
+        <div className="navBarInnerCont container">
           <a className="navbar-brand" href="#">
             <div className="logoDiv d-flex justify-content-center align-items-center">
               <div>
-                <img src={logo} alt="" width="90" />
+                <img src={logo} alt="" width="88" />
               </div>
             </div>
           </a>
@@ -24,10 +24,9 @@ export default function Header() {
             aria-expanded="false"
             aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
-
           </button>
           <div className="navlinkCont collapse navbar-collapse" id="navbarNavDropdown">
-            <ul className="navbar-nav nav-pills gap-2">
+            <ul className="navbar-nav text-dark gap-2">
               <li className="nav-item">
                 <NavLink to="/" className="nav-link" aria-current="page" activeClassName="active">
                   Home
