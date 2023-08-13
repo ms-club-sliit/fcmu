@@ -16,7 +16,7 @@ export default function Header() {
             </div>
           </a>
           <button
-            className="navbar-light navbar-toggler m-3 dark"
+            className="navbar-light navbar-toggler "
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarNavDropdown"
