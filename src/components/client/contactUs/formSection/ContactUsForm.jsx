@@ -1,8 +1,8 @@
-import React, { useRef } from "react"
-import emailjs from "@emailjs/browser"
-import { toast, ToastContainer } from "react-toastify"
-import "react-toastify/dist/ReactToastify.css"
-import "./contcaUsForm.css"
+import React, { useRef } from 'react'
+import emailjs from '@emailjs/browser'
+import { toast, ToastContainer } from 'react-toastify'
+import 'react-toastify/dist/ReactToastify.css'
+import './contcaUsForm.css'
 
 function ContactUsForm() {
   const form = useRef()
@@ -10,49 +10,49 @@ function ContactUsForm() {
   const sendEmail = (e) => {
     e.preventDefault()
 
-    emailjs.sendForm("service_5qurs4f", "template_jt84zq9", form.current, "eRRlFxuVAqopaJyAH").then(
+    emailjs.sendForm('service_5qurs4f', 'template_jt84zq9', form.current, 'eRRlFxuVAqopaJyAH').then(
       (result) => {
         console.log(result.text)
-        toastNotification("Succesfully sent", "success")
+        toastNotification('Succesfully sent', 'success')
         e.target.reset()
       },
       (error) => {
         console.log(error.text)
-        toastNotification("Something went wrong. Please try again", "error")
-      }
+        toastNotification('Something went wrong. Please try again', 'error')
+      },
     )
   }
 
   const toastNotification = (message, status) => {
-    if (status === "success") {
+    if (status === 'success') {
       toast.success(message, {
-        position: "bottom-center",
+        position: 'bottom-center',
         autoClose: 3000,
         hideProgressBar: false,
         closeOnClick: true,
         pauseOnHover: true,
         draggable: true,
-        progress: undefined
+        progress: undefined,
       })
-    } else if (status === "error") {
+    } else if (status === 'error') {
       toast.error(message, {
-        position: "bottom-center",
+        position: 'bottom-center',
         autoClose: 3000,
         hideProgressBar: false,
         closeOnClick: true,
         pauseOnHover: true,
         draggable: true,
-        progress: undefined
+        progress: undefined,
       })
     } else {
       toast.info(message, {
-        position: "bottom-center",
+        position: 'bottom-center',
         autoClose: 3000,
         hideProgressBar: false,
         closeOnClick: true,
         pauseOnHover: true,
         draggable: true,
-        progress: undefined
+        progress: undefined,
       })
     }
   }
@@ -63,8 +63,7 @@ function ContactUsForm() {
         <form
           className="row mt-5 d-flex justify-content-center align-items-center"
           ref={form}
-          onSubmit={sendEmail}
-        >
+          onSubmit={sendEmail}>
           <div className="row mt-4 ">
             <div className="col">
               <input type="text" className="form-control" name="fname" placeholder="First Name" />
@@ -88,12 +87,11 @@ function ContactUsForm() {
                 name="message"
                 id="message"
                 rows="4"
-                placeholder="Message"
-              ></textarea>
+                placeholder="Message"></textarea>
             </div>
           </div>
           <div className="col-12 mt-4 d-flex justify-content-center align-items-center">
-            <input type="submit" className="btnSubmit" value="Send" />
+            <input type="submit" className="btnSubmit" value="Send Message" />
           </div>
         </form>
       </div>

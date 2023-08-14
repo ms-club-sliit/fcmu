@@ -2,8 +2,30 @@
   margin: 0 100px;
 }
 
+.contactUsTitle {
+  color: #000;
+  font-family: 'Poppins';
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 80px; /* 166.667% */
+  letter-spacing: -0.022px;
+  text-align: center;
+}
+
+.landingPageContactUsContainer {
+  width: 50vw !important;
+  margin: 0 auto;
+  display: flex;
+}
+
 @media screen and (max-width: 991px) {
   .container-mx-100 {
     margin: 0;
+  }
+  .landingPageContactUsContainer {
+    width: 95vw !important;
+    margin: 0 auto;
+    display: flex;
   }
 }
