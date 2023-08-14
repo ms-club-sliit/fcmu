@@ -1,0 +1,9 @@
+.container-mx-100 {
+  margin: 0 100px;
+}
+
+@media screen and (max-width: 991px) {
+  .container-mx-100 {
+    margin: 0;
+  }
+}

@@ -7,7 +7,7 @@ export default function Header() {
   return (
     <header>
       <nav className="navBarCont navbar navbar-expand-lg bg-body-tertiary">
-        <div className="navBarInnerCont container">
+        <div className="navBarInnerCont container-fluid">
           <a className="navbar-brand" href="#">
             <div className="logoDiv d-flex justify-content-center align-items-center">
               <div>

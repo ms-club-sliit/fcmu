@@ -29,6 +29,10 @@ header {
   font-size: 1.1rem;
   transition: 0.5s all;
 }
+.navBarInnerCont {
+  max-width: 100%;
+  margin: 0 100px;
+}
 
 @media screen and (max-width: 991px) {
   .navBarCont {
@@ -41,9 +45,8 @@ header {
   .navlinkCont {
     margin-top: 1rem;
   }
-
   .navBarInnerCont {
     max-width: 100%;
-    margin-left: 0.8rem;
+    margin: auto;
   }
 }
