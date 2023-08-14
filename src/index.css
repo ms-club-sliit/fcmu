@@ -40,3 +40,8 @@ body {
   border-radius: 5px;
   background-color: var(--lightBlue);
 }
+
+@font-face {
+  font-family: 'cgv';
+  src: local('cgv'), url('./assets/fonts/cabinetGrotesk-variable.ttf') format('truetype');
+}
