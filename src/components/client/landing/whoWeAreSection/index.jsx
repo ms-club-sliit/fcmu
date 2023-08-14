@@ -1,25 +1,24 @@
-import React from "react"
-import "./whoWeAreSection.css"
+import React from 'react'
+import './whoWeAreSection.css'
 
 function WhoWeAreSection({ description, findMoreUrl, imgAltText, imgSrc }) {
   return (
-    <div className="container-fluid row px-2 pt-4 pb-4 mx-auto whoWeAreSection">
-      <div className="col-md-6 col-lg-1">
+    <div className="container-fluid d-flex px-2 pt-4 pb-4 mx-auto whoWeAreSection">
+      <div className="boardImgDiv">
         <img id="boardOfOfficialsImg" src={imgSrc} alt={imgAltText} />
       </div>
-      <div className="col-md-6 col-lg-11">
-        <div className="text-section-card  d-flex flex-column p-3 p-lg-5 w-100 w-lg-50">
+      <div className="">
+        <div className="text-section-card  d-flex flex-column p-3 p-lg-5 w-100">
           <h2 id="lp-wwas-title">Who We Are</h2>
-          <p>{description}</p>
+          <p className="white-space-string">{description}</p>
           <button
-            className="mt-auto"
+            className="btnHoverEffect "
             id="findMoreBtn"
             onClick={(e) => {
               e.preventDefault()
               window.location.href = findMoreUrl
-            }}
-          >
-            Find More
+            }}>
+            Find out More {'>'}
           </button>
         </div>
       </div>

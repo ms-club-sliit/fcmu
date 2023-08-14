@@ -18,7 +18,7 @@ function HeroSection() {
           disseminate information to the campus community, creating a more engaged and connected
           campus community.
         </p>
-        <button className="btn" id="newBtnJonNow">
+        <button className="btn btnHoverEffect" id="newBtnJonNow">
           Join Now
         </button>
       </div>

@@ -9,6 +9,9 @@ import { data as upcomingEvents } from '../components/client/common/EventsCompon
 import './styles/landingPage.css'
 
 function LandingPage() {
+  const wwaDesc =
+    'Welcome to the vibrant SLIIT Faculty of Computing Media Unit community, where we celebrate and nurture your unique talents in announcing, photography, content writing, digital marketing, graphics, and all aspects of media creation and production.\n\n Our media unit is a hub of creativity, collaboration, and innovation, where students can explore their passions and develop their skills in a supportive and dynamic environment. '
+
   const content =
     'Faculty of Computing Media Unit of Sri Lanka Institute of information and Technology, dedicated to providing high-quality media services to our students, faculty, and staff.\n' +
     "Our team is made up of experienced professionals who are passionate about creating and delivering engaging and informative content. From producing videos and podcasts to designing graphics and websites, we work hard to ensure that the University's voice is heard loud and clear.\n" +
@@ -20,7 +23,7 @@ function LandingPage() {
     <div className="container-mx-100">
       <NewHeroSection />
       <WhoWeAreSection
-        description="Welcome to the vibrant SLIIT Faculty of Computing Media Unit community, where we celebrate and nurture your unique talents in announcing, photography, content writing, digital marketing, graphics, and all aspects of media creation and production.Our media unit is a hub of creativity, collaboration, and innovation, where students can explore their passions and develop their skills in a supportive and dynamic environment. "
+        description={wwaDesc}
         findMoreUrl=""
         imgAltText="Board of officials image"
         imgSrc={BoardOfOfficialsImg}
