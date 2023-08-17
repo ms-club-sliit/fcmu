@@ -2,8 +2,10 @@
   text-align: center;
   color: black;
   font-family: cgv;
-  font-weight: 800;
-  font-size: 84px;
+  font-weight: 900;
+  font-size: 64px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .newHeroTextParagraph {
@@ -39,6 +41,11 @@
 @media (min-width: 992px) {
   .newHeroSecMainDivContainer {
     margin-bottom: 6rem !important;
+  }
+
+  .heroSecTitle {
+    font-weight: 800;
+    font-size: 84px;
   }
 }
 

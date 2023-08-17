@@ -51,12 +51,11 @@
 
 #boardOfOfficialsImg {
   border-radius: 17px;
-  width: 100%;
+  width: 95%;
   margin-bottom: 20px;
 }
 
 .text-section-card {
-  background: #ffffff;
   border-radius: 30px;
   position: relative;
   margin-left: auto;
@@ -90,6 +89,9 @@
 @media (max-width: 992px) {
   .whoWeAreSection {
     flex-wrap: wrap;
+  }
+  #boardOfOfficialsImg {
+    margin-left: 10px;
   }
 }
 

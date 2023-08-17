@@ -35,6 +35,7 @@
 @media screen and (max-width: 991px) {
   .container-mx-100 {
     margin: 0;
+    width: 100%;
   }
   .landingPageContactUsContainer {
     width: 95vw !important;
