@@ -95,6 +95,15 @@
   }
 }
 
+@media (min-width: 992px) and (max-width: 1230px) {
+  .white-space-string {
+    margin-right: -100px;
+  }
+  .text-section-card {
+    margin-top: -60px;
+  }
+}
+
 .white-space-string {
   white-space: pre-line;
 }
