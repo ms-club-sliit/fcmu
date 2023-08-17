@@ -25,6 +25,13 @@
   z-index: -1;
 }
 
+.bgImg2 {
+  width: 100%;
+  position: absolute;
+  z-index: -2;
+  margin-top: -160rem;
+}
+
 @media screen and (max-width: 991px) {
   .container-mx-100 {
     margin: 0;
@@ -33,5 +40,11 @@
     width: 95vw !important;
     margin: 0 auto;
     display: flex;
+  }
+  .bgImg2 {
+    width: 100%;
+    position: absolute;
+    z-index: -2;
+    margin-top: -120rem;
   }
 }

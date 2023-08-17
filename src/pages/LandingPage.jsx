@@ -1,6 +1,7 @@
 import React from 'react'
 import Events from '../components/client/common/EventsComponent/Events'
 import bg from '../assets/images/LandingPage/bg1.png'
+import bg2 from '../assets/images/LandingPage/bg2.png'
 import NewHeroSection from '../components/client/landing/heroSection/newHeroSection'
 import WhoWeAreSection from '../components/client/landing/whoWeAreSection'
 import BoardOfOfficialsImg from '../assets/images/boardOfOfficials.webp'
@@ -38,6 +39,7 @@ function LandingPage() {
           <ContactUsForm />
         </div>
       </div>
+      <img src={bg2} alt="background" className="bgImg2" />
     </>
   )
 }
