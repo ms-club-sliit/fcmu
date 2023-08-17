@@ -1,6 +1,6 @@
 import React from 'react'
 import Events from '../components/client/common/EventsComponent/Events'
-import QuotesSection from '../components/client/landing/quotesSection/QuotesSection'
+import bg from '../assets/images/LandingPage/bg1.png'
 import NewHeroSection from '../components/client/landing/heroSection/newHeroSection'
 import WhoWeAreSection from '../components/client/landing/whoWeAreSection'
 import BoardOfOfficialsImg from '../assets/images/boardOfOfficials.webp'
@@ -21,21 +21,24 @@ function LandingPage() {
     "Whether you're looking for help with a project or want to learn more about our services, we invite you to explore our website and get in touch with us. We are excited to work with you and help you bring your ideas to life."
 
   return (
-    <div className="container-mx-100">
-      <NewHeroSection />
-      <WhoWeAreSection
-        description={wwaDesc}
-        findMoreUrl=""
-        imgAltText="Board of officials image"
-        imgSrc={BoardOfOfficialsImg}
-      />
-      <LatestNotice />
-      <Events eventData={upcomingEvents} mainTitle="UPCOMING EVENTS" />
-      <h2 className="contactUsTitle">Contact Us</h2>
-      <div className="landingPageContactUsContainer">
-        <ContactUsForm />
+    <>
+      <img src={bg} alt="background" className="bgImg" />
+      <div className="container-mx-100">
+        <NewHeroSection />
+        <WhoWeAreSection
+          description={wwaDesc}
+          findMoreUrl=""
+          imgAltText="Board of officials image"
+          imgSrc={BoardOfOfficialsImg}
+        />
+        <LatestNotice />
+        <Events eventData={upcomingEvents} mainTitle="UPCOMING EVENTS" />
+        <h2 className="contactUsTitle">Contact Us</h2>
+        <div className="landingPageContactUsContainer">
+          <ContactUsForm />
+        </div>
       </div>
-    </div>
+    </>
   )
 }
 

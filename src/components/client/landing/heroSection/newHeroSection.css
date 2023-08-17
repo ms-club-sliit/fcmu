@@ -32,6 +32,16 @@
   animation: gradient 5s ease infinite;
 }
 
+.newHeroSecMainDivContainer {
+  margin: 0px !important;
+}
+
+@media (min-width: 992px) {
+  .newHeroSecMainDivContainer {
+    margin-bottom: 6rem !important;
+  }
+}
+
 @keyframes gradient {
   0% {
     background-position: 0% 50%;
