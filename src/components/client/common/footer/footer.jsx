@@ -10,7 +10,7 @@ import { Link } from 'react-router-dom'
 function Footer() {
   return (
     <section id="footer ">
-      <div className="container">
+      <div className="container-mx-100 footerSubContainer">
         <div className="">
           <div className="row">
             <div className="col-6 col-md-4">
@@ -61,7 +61,7 @@ function Footer() {
               <p className="subscribe-p fw-normal text-14px">
                 Dont forget to subscribe our news letters,enter your e-mail here.
               </p>
-              <div className="input-group mb-3">
+              <div className="input-group mb-3 footer-input-group">
                 <input
                   type="text"
                   className="form-control rounded text-14px"
