@@ -10,6 +10,7 @@ import { data as upcomingEvents } from '../components/client/common/EventsCompon
 import './styles/landingPage.css'
 import ContactUsForm from '../components/client/contactUs/formSection/ContactUsForm'
 
+
 function LandingPage() {
   const wwaDesc =
     'Welcome to the vibrant SLIIT Faculty of Computing Media Unit community, where we celebrate and nurture your unique talents in announcing, photography, content writing, digital marketing, graphics, and all aspects of media creation and production.\n\n Our media unit is a hub of creativity, collaboration, and innovation, where students can explore their passions and develop their skills in a supportive and dynamic environment. '
