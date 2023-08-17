@@ -1,82 +1,92 @@
 #footer {
-    background: linear-gradient(
-            132.18deg,
-            #1b9fdd 12.92%,
-            rgba(15, 115, 172, 0.95) 48.26%,
-            #09496d 87.06%
-    );
-    /* padding-top: 20px; */
-    padding-bottom: 20px;
+  /* padding-top: 20px; */
+  padding-bottom: 20px;
+  font-family: 'Inter', sans-serif;
+  font-size: 14px !important;
 }
 
 #emailIconInText {
-    font-size: 25px;
+  font-size: 25px;
+  color: white;
 }
 
-
 .footer-link {
-    text-decoration: none;
-    color: #fff;
+  text-decoration: none;
+  color: #000;
 }
 
 .subscribe-p {
-    margin-top: 40px;
-    color: #fff;
+  margin-top: 40px;
+  color: #000;
 }
 
 .hr-line {
-    border: 2px solid #fff;
-    opacity: 1;
-    width: 100px;
+  border: 1px solid #000;
+  opacity: 1;
+  width: 100px;
 }
 
 .input-group-text {
-    position: relative;
-    right: 20px;
-    padding-left: 15px;
-    padding-right: 15px;
-    background-color: red;
-    border: 1px solid red;
-    color: #fff;
-    border-radius: 10px !important;
-    z-index: 10;
+  position: relative;
+  right: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: #be1e2d;
+  border: 1px solid #be1e2d;
+  color: #000;
+  border-radius: 10px !important;
+  z-index: 10;
 }
 
 #emailIconInText {
-    transform: rotate(-10deg);
+  transform: rotate(-10deg);
 }
 
 .seprator {
-    border: 2px solid #fff;
-    opacity: 1;
+  border: 1px solid #000;
+  border-radius: 10px;
+  opacity: 0.11;
 }
 
 img.pw-img.ms-3 {
-    width: 4%;
+  width: 4%;
 }
 
 .footer-img1 {
-    background-color: #fff;
-    padding: 10px;
-    border-bottom-right-radius: 20px;
+  background-color: #fff;
+  padding: 10px;
+  border-bottom-right-radius: 20px;
 }
 
 .footer-img2 {
-    background-color: #fff;
-    padding: 10px;
-    border-bottom-left-radius: 20px;
+  background-color: #fff;
+  padding: 10px;
+  border-bottom-left-radius: 20px;
+  width: 51px;
+  margin-top: -15px;
 }
 
 .quick-link-area {
-    margin-top: -60px;
+  margin-top: 10px;
 }
 
 #subscribe-input {
-    border-radius: 10px !important;
+  border-radius: 10px !important;
 }
 
+.text-14px {
+  font-size: 14px;
+}
+.sub-head {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.social-media-icon {
+  color: #000;
+}
 @media screen and (max-width: 991px) {
-    .quick-link-area {
-        margin-top: 11px;
-    }
+  .quick-link-area {
+    margin-top: 11px;
+  }
 }
