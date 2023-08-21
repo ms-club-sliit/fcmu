@@ -8,7 +8,6 @@
   font-size: 50px;
 }
 
-
 .para-dark-blue {
   color: var(--darkBlue);
   font-weight: 700;
@@ -28,7 +27,7 @@
 }
 
 .intro-illustration {
-  width: 450px;
+  height: 350px;
   object-fit: cover;
   position: absolute;
   right: 0px;
@@ -48,6 +47,10 @@
 
 @media (max-width: 991px) {
   .intro-illustration {
-    display: none;
+    display: block;
+    object-fit: cover;
+    width: 355px !important;
+    position: relative;
+    top: 0;
   }
 }

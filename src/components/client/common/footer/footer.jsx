@@ -38,6 +38,7 @@ function Footer() {
                 </a>
               </div>
             </div>
+
             <div className="col-6 col-md-4 quick-link-area">
               <h5 className="text-black fw-bold sub-head">Quick Links</h5>
               <Link to="/" className="nav-link text-black ps-0 text-14px" aria-current="page">
@@ -75,6 +76,7 @@ function Footer() {
                   <i className="fa fa-solid fa-envelope" id="emailIconInText"></i>
                 </span>
               </div>
+
             </div>
           </div>
 
@@ -85,6 +87,7 @@ function Footer() {
             </p>
             <img src={msClubLogo} className="img-fluid footer-img2 float-end" alt="logo" />
           </div>
+
         </div>
       </div>
     </section>
