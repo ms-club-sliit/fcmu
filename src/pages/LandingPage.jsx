@@ -7,9 +7,8 @@ import WhoWeAreSection from '../components/client/landing/whoWeAreSection'
 import BoardOfOfficialsImg from '../assets/images/boardOfOfficials.webp'
 import LatestNotice from '../components/client/landing/latestNotice/LatestNotice'
 import { data as upcomingEvents } from '../components/client/common/EventsComponent/upcomingEvents'
-import './styles/landingPage.css'
+import './styles/LandingPage.css'
 import ContactUsForm from '../components/client/contactUs/formSection/ContactUsForm'
-
 
 function LandingPage() {
   const wwaDesc =
