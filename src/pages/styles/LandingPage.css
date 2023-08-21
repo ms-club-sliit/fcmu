@@ -8,7 +8,7 @@
   font-size: 48px;
   font-style: normal;
   font-weight: 700;
-  line-height: 80px; /* 166.667% */
+  line-height: 80px;
   letter-spacing: -0.022px;
   text-align: center;
 }
@@ -32,7 +32,7 @@
   margin-top: -160rem;
 }
 
-@media screen and (max-width: 991px) {
+@media (max-width: 991px) {
   .container-mx-100 {
     margin: 0;
     width: 100%;
