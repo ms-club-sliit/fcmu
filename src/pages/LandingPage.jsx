@@ -35,7 +35,7 @@ function LandingPage() {
         style={{ width: '100%' }}
       />
       <LatestNotice />
-      <Events eventData={upcomingEvents} mainTitle="UPCOMING EVENTS" />
+      <Events />
       <QuotesSection />
     </div>
   )
