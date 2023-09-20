@@ -1,51 +1,52 @@
 header {
-    color: var(--darkBlue);
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .nav-pills > .nav-item > .nav-link {
-    color: var(--darkBlue);
-    font-weight: bold !important;
+  font-weight: bold !important;
 }
 
 .active {
-    background-color: var(--secondary-text-color) !important;
-    color: var(--lightBlue) !important;
-    border-radius: 10px !important;
-    box-shadow: var(--btn-box-shadow) !important;
-    font-weight: bold;
+  color: var(--lightBlue) !important;
+  font-weight: bold;
 }
 
-.logoDiv {
-    position: absolute;
-    width: 140px;
-    height: 71px;
-    top: 0;
-    left: 0;
-    background-color: var(--secondary-text-color);
-    box-shadow: var(--btn-box-shadow);
-    border-radius: 0 0 30px 0;
-}
-
-.navBarCont {
-    padding-left: 120px;
-    padding-right: 25px;
-    padding-top: 20px;
+.active:hover {
+  font-size: 16px !important;
 }
 
 .navlinkCont {
-    flex-direction: row-reverse;
+  flex-direction: row-reverse;
+}
+.nav-link {
+  font-size: 16px;
+  font-weight: 600;
+  color: black;
+}
+
+.nav-link:hover {
+  color: var(--lightBlue);
+  font-size: 1.1rem;
+  transition: 0.5s all;
+}
+.navBarInnerCont {
+  max-width: 100%;
+  margin: 0 100px;
 }
 
 @media screen and (max-width: 991px) {
-    .navBarCont {
-        padding-left: 0;
-        padding-right: 0;
-        padding-top: 0;
-        text-align: center;
-    }
+  .navBarCont {
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    text-align: center;
+  }
 
-    .navlinkCont {
-        margin-top: 1rem;
-    }
+  .navlinkCont {
+    margin-top: 1rem;
+  }
+  .navBarInnerCont {
+    max-width: 100%;
+    margin: auto;
+  }
 }

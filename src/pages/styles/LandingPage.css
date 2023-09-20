@@ -1,26 +1,51 @@
-#backgroundLandingLineImage {
-    position: absolute;
-    top: 263vh;
-    left: -8px;
-    z-index: -1000;
-    object-fit: cover;
+.container-mx-100 {
+  margin: 0 100px;
 }
 
-#backgroundLandingLineBlueImage {
-    position: absolute;
-    top: 95vh;
-    right: 0;
-    z-index: -1000;
-    object-fit: cover;
+.contactUsTitle {
+  color: #000;
+  font-family: 'Poppins';
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 80px;
+  letter-spacing: -0.022px;
+  text-align: center;
 }
 
+.landingPageContactUsContainer {
+  width: 50vw !important;
+  margin: 0 auto;
+  display: flex;
+}
 
-@media screen and (max-width: 991px) {
-    #backgroundLandingLineImage {
-        top: 680vh;
-    }
+.bgImg {
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+}
 
-    #backgroundLandingLineBlueImage {
-        top: 450vh;
-    }
+.bgImg2 {
+  width: 100%;
+  position: absolute;
+  z-index: -2;
+  margin-top: -160rem;
+}
+
+@media (max-width: 991px) {
+  .container-mx-100 {
+    margin: 0;
+    width: 100%;
+  }
+  .landingPageContactUsContainer {
+    width: 95vw !important;
+    margin: 0 auto;
+    display: flex;
+  }
+  .bgImg2 {
+    width: 100%;
+    position: absolute;
+    z-index: -2;
+    margin-top: -120rem;
+  }
 }

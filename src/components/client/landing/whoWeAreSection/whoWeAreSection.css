@@ -1,64 +1,61 @@
 .whoWeAreSection {
-  color: var(--darkBlue);
-  font-family: 'Poppins';
+  color: black;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
+  font-size: 16px;
 }
 
 #lp-wwas-title {
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 700;
-  font-size: 2.5rem;
+  font-size: 3rem;
   line-height: 133%;
   /* identical to box height, or 133% */
 
   letter-spacing: -0.00022em;
-
-  /* darkBlue */
-
-  color: var(--darkBlue);
 }
 
 #findMoreBtn {
-  width: 231px;
-  height: 66px;
-  background: linear-gradient(132.18deg, #fe5858 29.29%, #dd1f1f 66.83%, #c11416 100%);
-  border-radius: 17px;
-  border: none;
-  font-family: 'Poppins';
+  width: 155px;
+
+  background: #be1e2d;
+  border-radius: 6px;
+  border: 1px solid rgba(12, 192, 226, 0.14);
+  font-family: 'Inter', sans-serif;
   font-style: normal;
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 64px;
-  letter-spacing: -0.00022em;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: normal;
+  letter-spacing: -0.32px;
   color: #ffffff;
+  padding: 10px 16px;
+}
+#findMoreBtn:hover {
+  background: linear-gradient(-45deg, #ffa3a3, #ff00b3, #ff0000, #ff0077);
+  background-size: 400% 400%;
+  animation: gradient 5s ease infinite;
 }
 
-p {
-  text-align: justify;
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 32px;
-  /* or 200% */
-
-  letter-spacing: -0.00022em;
-
-  /* darkBlue */
-
-  color: var(--darkBlue);
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 #boardOfOfficialsImg {
   border-radius: 17px;
-  width: 100%;
+  width: 95%;
   margin-bottom: 20px;
 }
 
 .text-section-card {
-  background: #ffffff;
-  box-shadow: 0px -1px 10px -2px rgba(0, 0, 0, 0.25);
   border-radius: 30px;
   position: relative;
   margin-left: auto;
@@ -87,4 +84,26 @@ p {
     left: 3rem;
     bottom: 3rem;
   }
+}
+
+@media (max-width: 992px) {
+  .whoWeAreSection {
+    flex-wrap: wrap;
+  }
+  #boardOfOfficialsImg {
+    margin-left: 10px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1230px) {
+  .white-space-string {
+    margin-right: -100px;
+  }
+  .text-section-card {
+    margin-top: -60px;
+  }
+}
+
+.white-space-string {
+  white-space: pre-line;
 }
