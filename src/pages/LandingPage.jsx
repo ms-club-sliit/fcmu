@@ -22,6 +22,7 @@ function LandingPage() {
     "Whether you're looking for help with a project or want to learn more about our services, we invite you to explore our website and get in touch with us. We are excited to work with you and help you bring your ideas to life."
 
   return (
+
     <>
       <img src={bg} alt="background" className="bgImg" />
       <div className="container-mx-100">
@@ -41,6 +42,7 @@ function LandingPage() {
       </div>
       <img src={bg2} alt="background" className="bgImg2" />
     </>
+
   )
 }
 
